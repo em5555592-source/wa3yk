@@ -1,0 +1,2597 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وعيك الرقمي أمانك | حملة توعوية لمدارس محافظة ظفار</title>
+
+    <!-- وسوم المعاينة لمنصات التواصل الاجتماعي (واتساب، X، فيسبوك، تيليجرام) -->
+    <meta name="description" content="حملة توعوية تفاعلية لمدارس محافظة ظفار لتعزيز الأمان الرقمي وحماية الخصوصية ومواجهة الاحتيال الإلكتروني - مدرسة محمد بن القاسم الثقفي.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="حملة وعيك الرقمي أمانك">
+    <meta property="og:title" content="وعيك الرقمي أمانك | حملة توعوية لمدارس محافظة ظفار">
+    <meta property="og:description" content="معاً نحو بيئة رقمية مدرسية آمنة ومسؤولة - مدرسة محمد بن القاسم الثقفي (١٨ نوفمبر – ٩ ديسمبر ٢٠٢٦م).">
+    <meta property="og:image" content="https://em5555592-source.github.io/wa3yk/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="وعيك الرقمي أمانك | حملة توعوية لمدارس محافظة ظفار">
+    <meta name="twitter:description" content="معاً نحو بيئة رقمية مدرسية آمنة ومسؤولة - مدرسة محمد بن القاسم الثقفي.">
+    <meta name="twitter:image" content="https://em5555592-source.github.io/wa3yk/logo.png">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%231d4ed8'/%3E%3Cpath d='M32 12 L48 19 L48 33 C48 43 41 50 32 54 C23 50 16 43 16 33 L16 19 Z' fill='%23ffffff'/%3E%3Crect x='26' y='28' width='12' height='10' rx='2' fill='%236d28d9'/%3E%3Cpath d='M28 28 V24 A4 4 0 0 1 36 24 V28' fill='none' stroke='%236d28d9' stroke-width='2.5'/%3E%3C/svg%3E">
+
+    <!-- استيراد خط تجوال وكايرو لدعم اللغة العربية بأعلى درجات الوضوح والجمالية -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- مكتبة Tailwind CSS للتصميم المتجاوب -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- مكتبة FontAwesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- مكتبة Tone.js للمؤثرات الصوتية التفاعلية الخفيفة -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                        tajawal: ['Tajawal', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            950: '#070b19',
+                            900: '#0f172a',
+                            800: '#1e293b',
+                        },
+                        tech: {
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                        },
+                        cyber: {
+                            600: '#9333ea',
+                            700: '#7e22ce',
+                            800: '#6b21a8',
+                        },
+                        glow: {
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Cairo', 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            overflow-x: hidden;
+        }
+
+        /* خلفية الترويسة الفاتحة عالية التباين والمستوحاة من ألوان الشعار */
+        .hero-light-gradient {
+            background: radial-gradient(circle at 15% 15%, rgba(109, 40, 217, 0.08) 0%, transparent 45%),
+                        radial-gradient(circle at 85% 85%, rgba(29, 78, 216, 0.09) 0%, transparent 50%),
+                        linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+        }
+
+        /* شبكة تقنية خفيفة عالية النقاء */
+        .circuit-pattern-light {
+            background-image: radial-gradient(rgba(29, 78, 216, 0.12) 1.2px, transparent 1.2px);
+            background-size: 24px 24px;
+        }
+
+        /* تأثير بطاقات المحاور القابلة للتوسيع */
+        .pillar-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .pillar-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px -10px rgba(29, 78, 216, 0.16);
+        }
+
+        /* تنسيق التبويب النشط */
+        .tab-btn {
+            transition: all 0.25s ease;
+        }
+        .tab-btn.active {
+            background: linear-gradient(135deg, #1d4ed8 0%, #6d28d9 100%);
+            color: #ffffff;
+            box-shadow: 0 8px 20px -4px rgba(109, 40, 217, 0.35);
+        }
+
+        /* إخفاء شريط التمرير في شريط التبويبات على الجوال مع إبقاء التمرير سلساً */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* أنيميشن نبض الدرع */
+        @keyframes floatShield {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+        }
+        .shield-float {
+            animation: floatShield 4s ease-in-out infinite;
+        }
+
+        /* تنسيقات الطباعة للشهادة فقط */
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            #certificate-printable, #certificate-printable * {
+                visibility: visible;
+            }
+            #certificate-printable {
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                margin: 0;
+                padding: 24px;
+                box-shadow: none !important;
+                border: 4px solid #1d4ed8 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-[#f8fafc] text-[#0f172a]">
+
+    <!-- إشعار عائم مخصص (بديل alert) -->
+    <div id="toast-notification" class="fixed bottom-5 left-5 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none no-print">
+        <div class="bg-[#0f172a] text-white border border-blue-400/40 px-5 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-blue-500/20 text-sky-400 flex items-center justify-center shrink-0">
+                <i id="toast-icon" class="fa-solid fa-circle-check"></i>
+            </div>
+            <span id="toast-message" class="text-sm font-bold">تم التنفيذ بنجاح!</span>
+        </div>
+    </div>
+
+    <!-- نافذة تسجيل دخول منسقي الحملة والمعلمين (PIN Modal) -->
+    <div id="admin-login-modal" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 no-print">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border-2 border-slate-200 space-y-5 relative">
+            <button onclick="closeAdminModal()" class="absolute top-5 left-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center cursor-pointer" title="إغلاق">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-100 text-[#1d4ed8] flex items-center justify-center text-xl">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <div>
+                    <h3 class="text-xl font-black text-[#0f172a]">بوابة منسقي الحملة والمعلمين</h3>
+                    <p class="text-xs font-bold text-slate-600">الخطة التنفيذية ولوحة تحليل الاستبيانات السحابية</p>
+                </div>
+            </div>
+
+            <form onsubmit="verifyAdminPin(event)" class="space-y-4">
+                <div>
+                    <label for="admin-pin-input" class="block text-sm font-extrabold text-[#0f172a] mb-1.5">أدخل رمز الدخول المخصص للمعلمين (PIN):</label>
+                    <input type="password" id="admin-pin-input" inputmode="numeric" maxlength="6" required placeholder="••••" class="w-full px-4 py-3 rounded-2xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-center text-2xl font-black tracking-widest text-[#0f172a] bg-slate-50" dir="ltr">
+                </div>
+
+                <!-- تلميح المساعدة برمز الدخول -->
+                <div class="flex items-center justify-between text-xs">
+                    <button type="button" onclick="togglePinHint()" class="text-[#1d4ed8] hover:underline font-extrabold flex items-center gap-1 cursor-pointer">
+                        <i class="fa-regular fa-circle-question"></i> مساعدة: ما هو رمز الدخول المعتمد؟
+                    </button>
+                    <span id="pin-hint-badge" class="hidden bg-amber-100 text-amber-900 border border-amber-300 px-2.5 py-1 rounded-lg font-black" dir="ltr">
+                        PIN: 8131
+                    </span>
+                </div>
+
+                <div id="admin-pin-error" class="hidden p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-800 text-xs font-extrabold">
+                    رمز الدخول غير صحيح. يرجى التحقق والمحاولة مرة أخرى.
+                </div>
+
+                <button type="submit" class="w-full py-3.5 rounded-2xl bg-gradient-to-l from-[#1d4ed8] to-[#6d28d9] hover:opacity-95 text-white font-black text-sm shadow-lg cursor-pointer transition">
+                    <i class="fa-solid fa-unlock-keyhole ml-1"></i> دخول لوحة المنسقين والخطة التنفيذية
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- بوابة الدخول الإلزامية: الاستبيان القبلي (Mandatory Pre-Survey Gate)   -->
+    <!-- ===================================================================== -->
+    <div id="pre-survey-gate-view" class="flex-grow flex flex-col justify-between hero-light-gradient circuit-pattern-light py-6 sm:py-10 px-4">
+        <div class="max-w-4xl w-full mx-auto space-y-6">
+            <!-- شريط الهوية العلوي -->
+            <div class="flex flex-wrap items-center justify-between gap-3 bg-white/95 backdrop-blur-sm px-5 py-3.5 rounded-2xl border-2 border-slate-200 shadow-sm">
+                <div class="flex flex-wrap items-center gap-2">
+                    <span class="inline-flex items-center gap-1.5 bg-blue-50 border border-blue-200 px-3 py-1 rounded-full text-xs font-black text-[#1d4ed8]">
+                        <i class="fa-solid fa-school"></i> حملة توعوية لمدارس محافظة ظفار
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 bg-purple-50 border border-purple-200 px-3 py-1 rounded-full text-xs font-black text-[#6d28d9]">
+                        مدرسة محمد بن القاسم الثقفي (٥-١٠)
+                    </span>
+                </div>
+                <span class="bg-[#0f172a] text-white px-3.5 py-1 rounded-full text-xs font-extrabold">
+                    ١٨ نوفمبر – ٩ ديسمبر ٢٠٢٦م
+                </span>
+            </div>
+
+            <!-- بطاقة الترحيب وشعار الحملة -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-[#1d4ed8]/30 shadow-lg flex flex-col md:flex-row items-center gap-6">
+                <div class="w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-full bg-slate-50 p-2 border-4 border-[#1d4ed8]/25 shadow-md flex items-center justify-center shield-float">
+                    <svg viewBox="0 0 240 240" class="w-full h-full">
+                        <defs>
+                            <linearGradient id="gateShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#0284c7"/>
+                                <stop offset="50%" stop-color="#1d4ed8"/>
+                                <stop offset="100%" stop-color="#0f172a"/>
+                            </linearGradient>
+                            <linearGradient id="gateRibbonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#0f172a"/>
+                                <stop offset="100%" stop-color="#1e3a8a"/>
+                            </linearGradient>
+                            <linearGradient id="gateRibbonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#6d28d9"/>
+                                <stop offset="100%" stop-color="#86198f"/>
+                            </linearGradient>
+                        </defs>
+                        <rect x="48" y="88" width="144" height="86" rx="10" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+                        <rect x="55" y="95" width="130" height="72" rx="6" fill="#e0f2fe"/>
+                        <path d="M32 174 L208 174 L198 184 L42 184 Z" fill="#64748b"/>
+                        <path d="M120 26 L168 46 L168 92 C168 124 146 146 120 158 C94 146 72 124 72 92 L72 46 Z" fill="url(#gateShieldGrad)" stroke="#bae6fd" stroke-width="3"/>
+                        <path d="M106 76 L106 64 C106 55 112 49 120 49 C128 49 134 55 134 64 L134 76" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+                        <rect x="100" y="74" width="40" height="34" rx="7" fill="#ffffff"/>
+                        <circle cx="120" cy="88" r="4" fill="#1e3a8a"/>
+                        <path d="M118 90 L122 90 L123 99 L117 99 Z" fill="#1e3a8a"/>
+                        <g transform="rotate(-4 120 132)">
+                            <rect x="34" y="114" width="172" height="36" rx="18" fill="url(#gateRibbonBlue)" stroke="#38bdf8" stroke-width="2"/>
+                            <text x="120" y="138" text-anchor="middle" fill="#ffffff" font-family="Cairo, sans-serif" font-weight="900" font-size="21">وعيك الرقمي</text>
+                        </g>
+                        <g transform="rotate(-2 120 165)">
+                            <rect x="64" y="147" width="112" height="32" rx="14" fill="url(#gateRibbonPurple)" stroke="#f3e8ff" stroke-width="2"/>
+                            <text x="120" y="169" text-anchor="middle" fill="#ffffff" font-family="Cairo, sans-serif" font-weight="900" font-size="20">أمانك</text>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="text-center md:text-right space-y-2.5 flex-grow">
+                    <span class="inline-flex items-center gap-1.5 bg-amber-100 text-amber-950 border border-amber-300 px-3.5 py-1 rounded-full text-xs font-black">
+                        <i class="fa-solid fa-lock text-amber-700"></i> الخطوة الأولى الإلزامية لفتح الصفحة التفاعلية
+                    </span>
+                    <h1 class="text-2xl sm:text-3xl font-black text-[#0f172a]">
+                        مرحباً بك في حملة <span class="text-[#1d4ed8]">«وعيك الرقمي</span> <span class="text-[#6d28d9]">أمانك»</span>
+                    </h1>
+                    <p class="text-sm sm:text-base font-bold text-[#1e293b] leading-relaxed">
+                        لضمان قياس مستوى الوعي الرقمي قبل البدء في الأنشطة والمختبرات التفاعلية، يُرجى إكمال <strong>الاستبيان القبلي القصير (٥ أسئلة فقط)</strong> لفتح جميع أقسام الحملة وشهادة «سفير الأمان الرقمي».
+                    </p>
+                </div>
+            </div>
+
+            <!-- نموذج الاستبيان القبلي الإلزامي -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-xl">
+                <div class="flex flex-wrap items-center justify-between gap-2 pb-4 mb-6 border-b border-slate-200">
+                    <h2 class="text-xl font-black text-[#0f172a] flex items-center gap-2">
+                        <i class="fa-solid fa-clipboard-question text-[#1d4ed8]"></i>
+                        <span>الاستبيان القبلي لقياس الوعي الرقمي</span>
+                    </h2>
+                    <span class="text-xs font-black text-emerald-800 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
+                        <i class="fa-solid fa-cloud-arrow-up ml-1"></i> يُحفظ تلقائياً في سجل الحملة
+                    </span>
+                </div>
+
+                <form id="mandatory-pre-survey-form" onsubmit="submitMandatoryPreSurvey(event)" class="space-y-6">
+                    <!-- بيانات الزائر -->
+                    <div class="bg-blue-50/70 rounded-2xl p-5 border-2 border-blue-200 grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div>
+                            <label for="gate-visitor-name" class="block text-sm font-black text-[#0f172a] mb-1.5">الاسم الثلاثي أو اللقب:</label>
+                            <input type="text" id="gate-visitor-name" required placeholder="اكتب اسمك هنا..." class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-sm font-bold text-[#0f172a] bg-white">
+                        </div>
+                        <div>
+                            <label for="gate-visitor-grade" class="block text-sm font-black text-[#0f172a] mb-1.5">الفئة / الصف الدراسي:</label>
+                            <select id="gate-visitor-grade" required class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-sm font-bold text-[#0f172a] bg-white">
+                                <option value="الصف الخامس">الصف الخامس</option>
+                                <option value="الصف السادس">الصف السادس</option>
+                                <option value="الصف السابع">الصف السابع</option>
+                                <option value="الصف الثامن">الصف الثامن</option>
+                                <option value="الصف التاسع">الصف التاسع</option>
+                                <option value="الصف العاشر" selected>الصف العاشر</option>
+                                <option value="الصف الحادي عشر">الصف الحادي عشر</option>
+                                <option value="الصف الثاني عشر">الصف الثاني عشر</option>
+                                <option value="معلم / هيئة إدارية">معلم / هيئة إدارية</option>
+                                <option value="ولي أمر / زائر">ولي أمر / زائر</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="gate-visitor-school" class="block text-sm font-black text-[#0f172a] mb-1.5">المدرسة (محافظة ظفار):</label>
+                            <input type="text" id="gate-visitor-school" required value="مدرسة محمد بن القاسم الثقفي" class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-sm font-bold text-[#0f172a] bg-white">
+                        </div>
+                    </div>
+
+                    <!-- الأسئلة الخمسة القبلية -->
+                    <div id="gate-questions-list" class="space-y-4"></div>
+
+                    <button type="submit" id="gate-submit-btn" class="w-full py-4 px-6 rounded-2xl bg-gradient-to-l from-[#1d4ed8] to-[#6d28d9] hover:opacity-95 text-white font-black text-base sm:text-lg shadow-xl flex items-center justify-center gap-3 transition transform active:scale-[0.99] cursor-pointer">
+                        <i class="fa-solid fa-door-open text-xl"></i>
+                        <span>إرسال الاستبيان القبلي والدخول إلى الصفحة التفاعلية</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- شريط سفلي في البوابة: حقوق الإعداد وزر دخول المعلمين والمنسقين المباشر -->
+            <div class="bg-white/95 rounded-2xl p-4 border-2 border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 text-xs sm:text-sm">
+                <div class="font-extrabold text-[#1e293b]">
+                    إعداد وتصميم: <span class="text-[#1d4ed8] font-black">أ/ عماد جابر محمد</span> – مدرسة محمد بن القاسم الثقفي
+                </div>
+                <button type="button" onclick="openAdminModal()" class="bg-[#0f172a] hover:bg-slate-800 text-white font-black px-4 py-2 rounded-xl text-xs flex items-center gap-2 shadow-sm transition cursor-pointer">
+                    <i class="fa-solid fa-user-tie text-sky-400"></i>
+                    <span>دخول منسقي الحملة والمعلمين (PIN)</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- الصفحة الأولى: بوابة الطلبة والمجتمع المدرسي (تُفتح بعد القبلي)       -->
+    <!-- ===================================================================== -->
+    <div id="student-portal-view" class="hidden flex-grow flex flex-col">
+
+        <!-- ١. الترويسة المتكاملة عالية التباين (Full Hero Section) -->
+        <header class="hero-light-gradient circuit-pattern-light text-[#0f172a] relative overflow-hidden border-b-4 border-[#1d4ed8]">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 relative z-10">
+                <!-- شريط علوي: الجهة المنظمة وشارة الدرجة القبلية والفترة الزمنية -->
+                <div class="flex flex-wrap items-center justify-between gap-3 pb-6 mb-6 border-b border-slate-200">
+                    <div class="flex flex-wrap items-center gap-2.5">
+                        <span class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 px-4 py-1.5 rounded-full text-xs sm:text-sm font-extrabold text-[#1d4ed8]">
+                            <i class="fa-solid fa-school"></i>
+                            حملة توعوية لمدارس محافظة ظفار
+                        </span>
+                        <span class="inline-flex items-center gap-2 bg-purple-50 border border-purple-200 px-4 py-1.5 rounded-full text-xs sm:text-sm font-extrabold text-[#6d28d9]">
+                            <i class="fa-solid fa-landmark"></i>
+                            مدرسة محمد بن القاسم الثقفي (٥-١٠)
+                        </span>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-2.5">
+                        <!-- شارة الدرجة القبلية للزائر -->
+                        <div id="visitor-pre-score-badge" class="hidden inline-flex items-center gap-2 bg-emerald-50 border-2 border-emerald-300 text-emerald-900 px-4 py-1.5 rounded-full text-xs sm:text-sm font-black shadow-sm">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                            <span>نتيجتك في الاستبيان القبلي: <strong id="header-pre-score-val" class="text-[#1d4ed8]">٠ / ٥</strong></span>
+                        </div>
+
+                        <div class="flex items-center gap-2 bg-[#0f172a] text-white px-4 py-1.5 rounded-full text-xs sm:text-sm font-extrabold shadow-sm">
+                            <i class="fa-regular fa-calendar-check text-sky-400"></i>
+                            <span>١٨ نوفمبر – ٩ ديسمبر ٢٠٢٦م</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محتوى الترويسة الرئيسي: النص التعريفي والوسم + الشعار التفاعلي -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-5 text-center lg:text-right">
+                        <div class="inline-flex items-center gap-2 bg-blue-100/80 border border-blue-300 px-3.5 py-1 rounded-full text-xs font-black text-[#1d4ed8]">
+                            <span class="w-2 h-2 rounded-full bg-[#1d4ed8] animate-ping"></span>
+                            معاً نحو بيئة رقمية مدرسية آمنة ومسؤولة
+                        </div>
+
+                        <h1 class="text-3xl sm:text-5xl lg:text-[3.2rem] font-black leading-tight text-[#0f172a]">
+                            حملة <span class="text-[#1d4ed8]">«وعيك الرقمي</span> <span class="text-[#6d28d9]">أمانك»</span>
+                        </h1>
+
+                        <p class="text-base sm:text-lg text-[#1e293b] leading-relaxed font-bold">
+                            أصبح العالم الرقمي جزءاً أساسياً من التعلم والتواصل والحياة اليومية. وتساعدنا المعرفة الرقمية على الاستفادة الآمنة من التقنية، مع حماية الخصوصية، والتحقق من المعلومات، والتصرف الصحيح عند مواجهة الإساءة أو الاحتيال الإلكتروني.
+                        </p>
+
+                        <!-- بطاقة الفئة المستهدفة وزر نسخ الوسم -->
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
+                            <button onclick="copyHashtag()" class="group bg-gradient-to-l from-[#1d4ed8] to-[#6d28d9] hover:opacity-95 text-white font-black px-5 py-3.5 rounded-2xl shadow-lg flex items-center justify-center gap-2.5 transition transform active:scale-95 cursor-pointer shrink-0">
+                                <span dir="ltr" class="text-base sm:text-lg tracking-wide">#وعيك_الرقمي_أمانك</span>
+                                <span class="bg-white/20 px-2.5 py-1 rounded-lg text-xs flex items-center gap-1">
+                                    <i class="fa-regular fa-copy"></i> نسخ الوسم
+                                </span>
+                            </button>
+
+                            <div class="bg-white border-2 border-slate-200 rounded-2xl px-4 py-3 text-right flex-grow shadow-sm">
+                                <div class="text-xs text-[#1d4ed8] font-black mb-0.5 flex items-center gap-1.5">
+                                    <i class="fa-solid fa-users-viewfinder"></i> الفئة المستهدفة:
+                                </div>
+                                <div class="text-xs sm:text-sm text-[#0f172a] font-bold">
+                                    طلبة مدارس محافظة ظفار، والهيئات التعليمية والإدارية، وأولياء الأمور، والمجتمع المدرسي.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-xs sm:text-sm font-extrabold text-slate-700 pt-1">
+                            <i class="fa-solid fa-pen-nib text-[#6d28d9] ml-1"></i>
+                            إعداد وتنسيق: <span class="text-[#0f172a] font-black">أ/ عماد جابر محمد</span> – مدرسة محمد بن القاسم الثقفي
+                        </div>
+                    </div>
+
+                    <!-- الشعار البصري للحملة (SVG تفاعلي عالي الدقة مع الأيقونات المحيطة) -->
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="relative w-64 h-64 sm:w-80 sm:h-80 shield-float">
+                            <!-- هالة مضيئة خلف الشعار -->
+                            <div class="absolute inset-4 rounded-full bg-gradient-to-tr from-blue-400/25 via-purple-400/20 to-sky-300/25 blur-xl"></div>
+
+                            <!-- رسم SVG مطابق لهوية شعار الحملة -->
+                            <svg viewBox="0 0 320 320" class="w-full h-full relative z-10 drop-shadow-xl">
+                                <defs>
+                                    <linearGradient id="bgCircleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#ffffff"/>
+                                        <stop offset="100%" stop-color="#e0e7ff"/>
+                                    </linearGradient>
+                                    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#0284c7"/>
+                                        <stop offset="50%" stop-color="#1d4ed8"/>
+                                        <stop offset="100%" stop-color="#0f172a"/>
+                                    </linearGradient>
+                                    <linearGradient id="ribbonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#0f172a"/>
+                                        <stop offset="100%" stop-color="#1e3a8a"/>
+                                    </linearGradient>
+                                    <linearGradient id="ribbonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#6d28d9"/>
+                                        <stop offset="100%" stop-color="#86198f"/>
+                                    </linearGradient>
+                                </defs>
+
+                                <!-- الإطار الدائري الخارجي -->
+                                <circle cx="160" cy="160" r="146" fill="url(#bgCircleGrad)" stroke="#4f46e5" stroke-width="6"/>
+                                <circle cx="160" cy="160" r="134" fill="none" stroke="#93c5fd" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+                                <!-- خطوط دوائر إلكترونية -->
+                                <path d="M90 105 Q160 65 230 105" fill="none" stroke="#2563eb" stroke-width="2" opacity="0.5"/>
+                                <circle cx="90" cy="105" r="4" fill="#2563eb"/>
+                                <circle cx="230" cy="105" r="4" fill="#2563eb"/>
+
+                                <!-- الحاسوب المحمول في الخلفية -->
+                                <rect x="75" y="130" width="170" height="105" rx="12" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+                                <rect x="84" y="139" width="152" height="87" rx="6" fill="#eff6ff"/>
+                                <path d="M55 235 L265 235 L252 248 L68 248 Z" fill="#64748b"/>
+
+                                <!-- الدرع الأزرق المركزي -->
+                                <path d="M160 55 L218 80 L218 138 C218 178 192 206 160 222 C128 206 102 178 102 138 L102 80 Z" fill="url(#shieldGrad)" stroke="#7dd3fc" stroke-width="3.5"/>
+
+                                <!-- القفل الأبيض داخل الدرع -->
+                                <path d="M142 120 L142 104 C142 93 150 85 160 85 C170 85 178 93 178 104 L178 120" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+                                <rect x="135" y="118" width="50" height="42" rx="8" fill="#ffffff"/>
+                                <circle cx="160" cy="135" r="5" fill="#1e3a8a"/>
+                                <path d="M157 138 L163 138 L164 149 L156 149 Z" fill="#1e3a8a"/>
+
+                                <!-- أيقونات جانبية عائمة -->
+                                <!-- واي فاي -->
+                                <g transform="translate(68, 42) rotate(-12)">
+                                    <rect width="46" height="46" rx="12" fill="#1d4ed8"/>
+                                    <path d="M12 20 Q23 11 34 20 M16 26 Q23 20 30 26" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+                                    <circle cx="23" cy="33" r="2.5" fill="#fff"/>
+                                </g>
+                                <!-- تصيد بريدي -->
+                                <g transform="translate(212, 52) rotate(12)">
+                                    <rect width="46" height="46" rx="12" fill="#2563eb"/>
+                                    <rect x="10" y="15" width="26" height="18" rx="3" fill="#fff"/>
+                                    <path d="M10 16 L23 25 L36 16" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+                                </g>
+                                <!-- كلمة مرور -->
+                                <g transform="translate(36, 102) rotate(-8)">
+                                    <rect width="44" height="44" rx="12" fill="#1e3a8a"/>
+                                    <text x="22" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">****</text>
+                                </g>
+                                <!-- تنبيه -->
+                                <g transform="translate(242, 148) rotate(8)">
+                                    <rect width="44" height="44" rx="12" fill="#6d28d9"/>
+                                    <polygon points="22,11 34,32 10,32" fill="#fbbf24"/>
+                                    <text x="22" y="29" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="900">!</text>
+                                </g>
+
+                                <!-- شريط "وعيك الرقمي" -->
+                                <g transform="rotate(-4 160 185)">
+                                    <rect x="52" y="162" width="216" height="46" rx="23" fill="url(#ribbonBlue)" stroke="#38bdf8" stroke-width="2.5"/>
+                                    <text x="160" y="192" text-anchor="middle" fill="#ffffff" font-family="Cairo, sans-serif" font-weight="900" font-size="27">وعيك الرقمي</text>
+                                </g>
+
+                                <!-- شريط "أمانك" -->
+                                <g transform="rotate(-2 160 228)">
+                                    <rect x="92" y="206" width="136" height="40" rx="18" fill="url(#ribbonPurple)" stroke="#f3e8ff" stroke-width="2"/>
+                                    <text x="160" y="233" text-anchor="middle" fill="#ffffff" font-family="Cairo, sans-serif" font-weight="900" font-size="25">أمانك</text>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ٢. شريط التنقل الخاص ببوابة الطلبة فقط (٣ تبويبات طلابية نقية) -->
+        <nav class="sticky top-0 z-40 bg-white border-b-2 border-slate-200 shadow-sm no-print">
+            <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-start sm:justify-center gap-2.5 py-3 overflow-x-auto no-scrollbar" role="tablist">
+                    <button onclick="switchStudentTab('pillars')" id="tab-btn-pillars" class="tab-btn active shrink-0 px-5 py-2.5 rounded-xl text-sm sm:text-base font-extrabold flex items-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>١. محاور التوعية الخمسة</span>
+                    </button>
+                    <button onclick="switchStudentTab('lab')" id="tab-btn-lab" class="tab-btn shrink-0 px-5 py-2.5 rounded-xl text-sm sm:text-base font-extrabold text-[#1e293b] hover:bg-slate-100 flex items-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-flask-vial text-[#1d4ed8]"></i>
+                        <span>٢. المختبر التفاعلي للطلبة</span>
+                    </button>
+                    <button onclick="switchStudentTab('survey')" id="tab-btn-survey" class="tab-btn shrink-0 px-5 py-2.5 rounded-xl text-sm sm:text-base font-extrabold text-[#1e293b] hover:bg-slate-100 flex items-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-award text-[#6d28d9]"></i>
+                        <span>٣. الاستبيان البعدي والشهادة</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ٣. محتوى بوابة الطلبة -->
+        <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+            <!-- التبويب الأول: محاور التوعية الخمسة + الأهداف + الدليل المصور -->
+            <section id="tab-content-pillars" class="space-y-10">
+                <!-- أهداف الحملة الستة -->
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+                        <div>
+                            <span class="text-xs font-black text-[#1d4ed8] bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">الرؤية والأهداف</span>
+                            <h2 class="text-2xl sm:text-3xl font-black text-[#0f172a] mt-2">أهداف حملة «وعيك الرقمي أمانك»</h2>
+                        </div>
+                        <p class="text-sm font-bold text-slate-600">ستة أهداف رئيسية لبناء جيل رقمي واعٍ ومحصّن</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                            <span class="w-8 h-8 rounded-xl bg-[#1d4ed8] text-white font-black flex items-center justify-center shrink-0">١</span>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">رفع الوعي بمخاطر الاختراق والروابط والرسائل الاحتيالية.</p>
+                        </div>
+                        <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                            <span class="w-8 h-8 rounded-xl bg-[#1d4ed8] text-white font-black flex items-center justify-center shrink-0">٢</span>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">تعزيز الاستخدام الآمن والمتوازن للأجهزة الذكية ومنصات التواصل.</p>
+                        </div>
+                        <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                            <span class="w-8 h-8 rounded-xl bg-[#1d4ed8] text-white font-black flex items-center justify-center shrink-0">٣</span>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">تعريف الطلبة بطرق حماية البيانات والحسابات الشخصية.</p>
+                        </div>
+                        <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                            <span class="w-8 h-8 rounded-xl bg-[#6d28d9] text-white font-black flex items-center justify-center shrink-0">٤</span>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">الوقاية من التنمر والابتزاز والإساءة الرقمية ومعرفة قنوات الإبلاغ.</p>
+                        </div>
+                        <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                            <span class="w-8 h-8 rounded-xl bg-[#6d28d9] text-white font-black flex items-center justify-center shrink-0">٥</span>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">التحقق من الأخبار والصور والمعلومات قبل تصديقها أو إعادة نشرها.</p>
+                        </div>
+                        <div class="flex items-start gap-3.5 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                            <span class="w-8 h-8 rounded-xl bg-[#6d28d9] text-white font-black flex items-center justify-center shrink-0">٦</span>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">التوعية بأن السلوك الرقمي مسؤولية، وأن احترام الآخرين واجب.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محاور التوعية الخمسة -->
+                <div>
+                    <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-6">
+                        <div>
+                            <span class="text-xs font-black text-[#6d28d9] bg-purple-100 border border-purple-200 px-3 py-1 rounded-full">اضغط على أي بطاقة لاستعراض الإرشادات والقاعدة الذهبية</span>
+                            <h2 class="text-2xl sm:text-3xl font-black text-[#0f172a] mt-2">محاور التوعية الأساسية الخمسة</h2>
+                        </div>
+                        <button onclick="toggleAllPillars()" class="self-start sm:self-auto text-sm font-extrabold text-[#1d4ed8] hover:bg-blue-100 bg-blue-50 border border-blue-200 px-4 py-2 rounded-xl transition cursor-pointer">
+                            <i class="fa-solid fa-layer-group ml-1"></i> توسيع / طي الكل
+                        </button>
+                    </div>
+
+                    <div id="pillars-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+                </div>
+
+                <!-- الدليل المصوّر بتصميم فاتح عالي الوضوح -->
+                <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border-2 border-[#1d4ed8]/30">
+                    <div class="text-center max-w-2xl mx-auto mb-8">
+                        <span class="inline-block bg-blue-100 text-[#1d4ed8] border border-blue-200 text-xs font-black px-3.5 py-1 rounded-full mb-2">
+                            دليل مصوّر سريع للطلبة
+                        </span>
+                        <h2 class="text-2xl sm:text-3xl font-black text-[#0f172a]">تذكّر هذه الخطوات الثلاث دائماً</h2>
+                        <p class="text-[#1e293b] text-sm sm:text-base font-semibold mt-2">إرشادات مبسطة تساعدك على تذكر السلوك الآمن في مواقفك الرقمية اليومية.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-amber-50/70 rounded-2xl p-6 border-2 border-amber-200 flex flex-col items-center text-center">
+                            <div class="w-16 h-16 rounded-2xl bg-amber-600 flex items-center justify-center text-2xl text-white shadow-md mb-4">
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            </div>
+                            <span class="text-xs font-black text-amber-800 mb-1">الخطوة ١: افحص قبل النقر</span>
+                            <h3 class="text-lg font-black text-[#0f172a] mb-2">لا تفتح الرابط مباشرة</h3>
+                            <p class="text-sm text-[#1e293b] font-semibold leading-relaxed">
+                                افحص عنوان الرابط ومصدره بدقة، وتوقف عند رسائل الجوائز أو التهديد، واسأل شخصاً موثوقاً إذا شككت فيه.
+                            </p>
+                        </div>
+
+                        <div class="bg-blue-50/70 rounded-2xl p-6 border-2 border-blue-200 flex flex-col items-center text-center">
+                            <div class="w-16 h-16 rounded-2xl bg-[#1d4ed8] flex items-center justify-center text-2xl text-white shadow-md mb-4">
+                                <i class="fa-solid fa-user-lock"></i>
+                            </div>
+                            <span class="text-xs font-black text-[#1d4ed8] mb-1">الخطوة ٢: حصّن مفتاحك</span>
+                            <h3 class="text-lg font-black text-[#0f172a] mb-2">كلمة مرور طويلة وفريدة</h3>
+                            <p class="text-sm text-[#1e293b] font-semibold leading-relaxed">
+                                استخدم كلمة مرور قوية ومختلفة لكل حساب مع التحقق بخطوتين، ولا تشاركها أو رمز التحقق (OTP) مع أي شخص.
+                            </p>
+                        </div>
+
+                        <div class="bg-purple-50/70 rounded-2xl p-6 border-2 border-purple-200 flex flex-col items-center text-center">
+                            <div class="w-16 h-16 rounded-2xl bg-[#6d28d9] flex items-center justify-center text-2xl text-white shadow-md mb-4">
+                                <i class="fa-solid fa-hand-holding-heart"></i>
+                            </div>
+                            <span class="text-xs font-black text-[#6d28d9] mb-1">الخطوة ٣: لا تصمت واطلب العون</span>
+                            <h3 class="text-lg font-black text-[#0f172a] mb-2">احتفظ بالدليل وأبلغ فوراً</h3>
+                            <p class="text-sm text-[#1e293b] font-semibold leading-relaxed">
+                                عند التعرض للتنمر أو الابتزاز: احتفظ بالدليل (لقطة شاشة)، ولا تستجب للتهديد، وأخبر ولي أمرك أو معلماً تثق به.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- التبويب الثاني: المختبر التفاعلي للطلبة -->
+            <section id="tab-content-lab" class="hidden space-y-8">
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-[#1d4ed8]/30 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs font-black text-[#1d4ed8] bg-blue-50 px-3 py-1 rounded-full">تطبيق عملي تفاعلي</span>
+                        <h2 class="text-2xl sm:text-3xl font-black text-[#0f172a] mt-2">المختبر التفاعلي للأمان الرقمي</h2>
+                        <p class="text-[#1e293b] text-sm sm:text-base font-semibold mt-1">تدرب عملياً على كشف الروابط المشبوهة، واختبار قوة كلمات المرور، والتصرف الصحيح في المواقف الرقمية.</p>
+                    </div>
+                    <div class="bg-blue-50 px-6 py-3.5 rounded-2xl border-2 border-blue-200 text-center shrink-0">
+                        <div class="text-xs font-extrabold text-[#1d4ed8]">مجموع نقاطك في المختبر</div>
+                        <div class="text-2xl font-black text-[#0f172a] mt-0.5"><span id="lab-total-score">٠</span> / <span id="lab-max-score">٨</span></div>
+                    </div>
+                </div>
+
+                <!-- الأداة ١: فاحص قوة كلمة المرور -->
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-2xl bg-blue-100 text-[#1d4ed8] flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-key"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-black text-[#0f172a]">أولاً: فاحص قوة كلمة المرور (كلمة مروري درعي)</h3>
+                                <p class="text-xs sm:text-sm font-semibold text-slate-600">جرّب تكوين كلمة مرور قوية وشاهد تقييمها الفوري دون إرسال أي بيانات.</p>
+                            </div>
+                        </div>
+                        <span class="bg-amber-100 text-amber-950 border border-amber-300 px-3.5 py-1.5 rounded-xl text-xs font-black flex items-center gap-1.5">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-700"></i>
+                            تنبيه أمني: لا تكتب كلمة مرورك الحقيقية أبداً!
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start mt-6">
+                        <div class="lg:col-span-6 space-y-4">
+                            <label for="password-test-input" class="block text-sm font-extrabold text-[#0f172a]">أدخل كلمة مرور تجريبية للاختبار:</label>
+                            <div class="relative">
+                                <input type="text" id="password-test-input" oninput="evaluatePassword(this.value)" placeholder="مثال تجريبي: Dhofar@2026#Safe" class="w-full px-4 py-3.5 pl-24 rounded-2xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-left font-mono text-base font-bold text-[#0f172a] bg-slate-50" dir="ltr">
+                                <button onclick="generateSamplePassword()" class="absolute left-2 top-2 bottom-2 px-3 bg-[#1d4ed8] hover:bg-blue-800 text-white text-xs font-extrabold rounded-xl transition cursor-pointer">
+                                    مثال قوي
+                                </button>
+                            </div>
+
+                            <div class="space-y-2">
+                                <div class="flex justify-between text-sm font-extrabold text-[#0f172a]">
+                                    <span>مستوى الحماية: <span id="pwd-strength-label" class="text-slate-600">بانتظار الإدخال...</span></span>
+                                    <span>الطول: <span id="pwd-length-ar" class="text-[#1d4ed8]">٠</span> خانات</span>
+                                </div>
+                                <div class="w-full h-3.5 bg-slate-200 rounded-full overflow-hidden p-0.5">
+                                    <div id="pwd-strength-bar" class="h-full w-0 rounded-full transition-all duration-300 bg-slate-400"></div>
+                                </div>
+                            </div>
+
+                            <div id="pwd-advice-box" class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs sm:text-sm font-bold text-[#1e293b]">
+                                ابدأ بكتابة أحرف وأرقام ورموز لترى نصائح تعزيز كلمة المرور.
+                            </div>
+                        </div>
+
+                        <div class="lg:col-span-6 bg-slate-50 rounded-2xl p-5 border border-slate-200 space-y-3">
+                            <h4 class="font-black text-sm text-[#0f172a] mb-2">معايير كلمة المرور الحصينة:</h4>
+                            <div id="crit-length" class="flex items-center gap-2.5 text-sm font-bold text-slate-600">
+                                <i class="fa-regular fa-circle text-slate-400"></i>
+                                <span>تتكون من ١٢ خانة أو أكثر (طويلة وصعبة التخمين)</span>
+                            </div>
+                            <div id="crit-upper" class="flex items-center gap-2.5 text-sm font-bold text-slate-600">
+                                <i class="fa-regular fa-circle text-slate-400"></i>
+                                <span>تحتوي على أحرف كبيرة (A-Z)</span>
+                            </div>
+                            <div id="crit-lower" class="flex items-center gap-2.5 text-sm font-bold text-slate-600">
+                                <i class="fa-regular fa-circle text-slate-400"></i>
+                                <span>تحتوي على أحرف صغيرة (a-z)</span>
+                            </div>
+                            <div id="crit-number" class="flex items-center gap-2.5 text-sm font-bold text-slate-600">
+                                <i class="fa-regular fa-circle text-slate-400"></i>
+                                <span>تحتوي على أرقام (0-9)</span>
+                            </div>
+                            <div id="crit-symbol" class="flex items-center gap-2.5 text-sm font-bold text-slate-600">
+                                <i class="fa-regular fa-circle text-slate-400"></i>
+                                <span>تحتوي على رموز خاصة (! @ # $ % & *)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- الأداة ٢: لعبة صيد الرابط المشبوه -->
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-6">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-2xl bg-purple-100 text-[#6d28d9] flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-fish-fins"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-black text-[#0f172a]">ثانياً: تحدي «صيد الرابط المشبوه» (الرابط الآمن أم المشبوه؟)</h3>
+                                <p class="text-xs sm:text-sm font-semibold text-slate-600">افحص الرسائل الافتراضية التالية وحدد ما إذا كانت آمنة أم محاولة احتيال إلكتروني.</p>
+                            </div>
+                        </div>
+                        <div class="bg-purple-50 border border-purple-200 px-4 py-2 rounded-xl text-sm font-black text-[#6d28d9]">
+                            النتيجة: <span id="phishing-score-ar">٠</span> من <span id="phishing-total-ar">٥</span>
+                        </div>
+                    </div>
+
+                    <div id="phishing-cards-container" class="grid grid-cols-1 md:grid-cols-2 gap-5"></div>
+                </div>
+
+                <!-- الأداة ٣: مواقف "ماذا أفعل؟" -->
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-6">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-2xl bg-rose-100 text-rose-700 flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-life-ring"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-black text-[#0f172a]">ثالثاً: مواقف «ماذا أفعل؟» (مواجهة التنمر والابتزاز الرقمي)</h3>
+                                <p class="text-xs sm:text-sm font-semibold text-slate-600">اقرأ كل موقف رقمي واختر التصرف الصحيح والآمن لحماية نفسك.</p>
+                            </div>
+                        </div>
+                        <div class="bg-rose-50 border border-rose-200 px-4 py-2 rounded-xl text-sm font-black text-rose-800">
+                            المواقف الصحيحة: <span id="scenarios-score-ar">٠</span> من <span id="scenarios-total-ar">٣</span>
+                        </div>
+                    </div>
+
+                    <div id="scenarios-container" class="space-y-5"></div>
+                </div>
+            </section>
+
+            <!-- التبويب الثالث: الاستبيان التفاعلي (قبلي / بعدي) والشهادة -->
+            <section id="tab-content-survey" class="hidden space-y-8">
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+            <!-- التبويب الثالث: الاستبيان التفاعلي البعدي والشهادة -->
+            <section id="tab-content-survey" class="hidden space-y-8">
+                <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-200">
+                        <div>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="text-xs font-black text-[#6d28d9] bg-purple-50 border border-purple-200 px-3 py-1 rounded-full">الخطوة الختامية لقياس الأثر</span>
+                                <span class="text-xs font-black text-emerald-800 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
+                                    <i class="fa-solid fa-cloud-arrow-up ml-1"></i> متصل تلقائياً بسجل الحملة السحابي
+                                </span>
+                            </div>
+                            <h2 class="text-2xl sm:text-3xl font-black text-[#0f172a] mt-2">الاستبيان البعدي وإصدار شهادة «سفير الأمان الرقمي»</h2>
+                            <p class="text-sm font-semibold text-[#1e293b] mt-1">بعد تصفح محاور التوعية وتجربة المختبر التفاعلي، أجب عن الاستبيان البعدي لقياس مدى تطور وعيك الرقمي والحصول على شهادتك المعتمدة.</p>
+                        </div>
+
+                        <!-- شارة نوع التقييم المحددة تلقائياً كبعدي -->
+                        <div class="flex items-center gap-2 bg-purple-50 px-4 py-2.5 rounded-2xl border-2 border-purple-200 self-start">
+                            <i class="fa-solid fa-chart-simple text-[#6d28d9]"></i>
+                            <span class="text-xs sm:text-sm font-black text-[#6d28d9]">تقييم بعدي (نهاية الأنشطة)</span>
+                        </div>
+                    </div>
+
+                    <form id="awareness-quiz-form" onsubmit="submitAwarenessQuiz(event)" class="space-y-6 mt-6">
+                        <!-- بيانات الطالب والصف والمدرسة (تُعبأ تلقائياً من الاستبيان القبلي) -->
+                        <div class="bg-blue-50/50 rounded-2xl p-5 border-2 border-blue-100 grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div>
+                                <label for="student-name" class="block text-sm font-black text-[#0f172a] mb-1.5">اسم الطالب / المشارك:</label>
+                                <input type="text" id="student-name" required placeholder="اكتب اسمك الثلاثي هنا..." class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-sm font-bold text-[#0f172a] bg-white">
+                            </div>
+                            <div>
+                                <label for="student-grade" class="block text-sm font-black text-[#0f172a] mb-1.5">الصف الدراسي / الفئة:</label>
+                                <select id="student-grade" required class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-sm font-bold text-[#0f172a] bg-white">
+                                    <option value="الصف الخامس">الصف الخامس</option>
+                                    <option value="الصف السادس">الصف السادس</option>
+                                    <option value="الصف السابع">الصف السابع</option>
+                                    <option value="الصف الثامن">الصف الثامن</option>
+                                    <option value="الصف التاسع">الصف التاسع</option>
+                                    <option value="الصف العاشر" selected>الصف العاشر</option>
+                                    <option value="الصف الحادي عشر">الصف الحادي عشر</option>
+                                    <option value="الصف الثاني عشر">الصف الثاني عشر</option>
+                                    <option value="معلم / هيئة إدارية">معلم / هيئة إدارية</option>
+                                    <option value="ولي أمر / زائر">ولي أمر / زائر</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="student-school" class="block text-sm font-black text-[#0f172a] mb-1.5">اسم المدرسة (محافظة ظفار):</label>
+                                <input type="text" id="student-school" required value="مدرسة محمد بن القاسم الثقفي" class="w-full px-4 py-2.5 rounded-xl border-2 border-slate-300 focus:border-[#1d4ed8] focus:outline-none text-sm font-bold text-[#0f172a] bg-white">
+                            </div>
+                        </div>
+
+                        <div id="quiz-questions-list" class="space-y-5"></div>
+
+                        <div class="flex flex-wrap items-center justify-between gap-4 pt-2">
+                            <button type="submit" id="quiz-submit-btn" class="bg-gradient-to-l from-[#1d4ed8] to-[#6d28d9] hover:opacity-95 text-white font-black px-8 py-3.5 rounded-2xl shadow-lg flex items-center gap-2 transition cursor-pointer">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>اعتماد الاستبيان البعدي وإصدار الشهادة</span>
+                            </button>
+                            <button type="button" onclick="resetQuiz()" class="text-sm font-extrabold text-slate-700 hover:bg-slate-100 px-4 py-2.5 rounded-xl border border-slate-300 transition cursor-pointer">
+                                <i class="fa-solid fa-rotate-right ml-1"></i> إعادة المحاولة
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- نتيجة الاستبيان + شهادة سفير الأمان الرقمي -->
+                <div id="quiz-result-section" class="hidden space-y-6">
+                    <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-md border-2 border-[#1d4ed8]">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                            <div class="space-y-2 text-center md:text-right">
+                                <div class="flex flex-wrap items-center justify-center md:justify-start gap-2">
+                                    <span id="result-badge-type" class="inline-block bg-blue-100 text-[#1d4ed8] text-xs font-black px-3 py-1 rounded-full">نتيجة التقييم القبلي</span>
+                                    <span id="sync-status-badge" class="inline-block bg-emerald-100 text-emerald-900 text-xs font-black px-3 py-1 rounded-full">
+                                        <i class="fa-solid fa-cloud-check ml-1"></i> تم حفظ وإرسال الاستجابة إلى سجل المدرسة السحابي
+                                    </span>
+                                </div>
+                                <h3 class="text-2xl font-black text-[#0f172a]">درجة وعيك الرقمي: <span id="quiz-score-display" class="text-[#1d4ed8]">٥ / ٥</span> (<span id="quiz-percent-display">١٠٠٪</span>)</h3>
+                                <p id="quiz-feedback-text" class="text-sm sm:text-base font-bold text-[#1e293b]"></p>
+                            </div>
+                            <button onclick="window.print()" class="shrink-0 bg-emerald-700 hover:bg-emerald-800 text-white font-black px-6 py-3.5 rounded-2xl shadow-lg flex items-center gap-2 transition cursor-pointer no-print">
+                                <i class="fa-solid fa-print"></i>
+                                <span>طباعة / حفظ الشهادة PDF</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="certificate-printable" class="bg-white rounded-3xl p-6 sm:p-10 border-4 border-double border-[#1d4ed8] shadow-xl relative overflow-hidden text-center">
+                        <div class="relative z-10 max-w-3xl mx-auto space-y-4">
+                            <div class="flex items-center justify-center gap-3 text-[#1d4ed8] font-black text-sm">
+                                <span>سلطنة عُمان</span>
+                                <span>•</span>
+                                <span>مدارس محافظة ظفار</span>
+                                <span>•</span>
+                                <span>حملة «وعيك الرقمي أمانك»</span>
+                            </div>
+
+                            <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-[#1d4ed8] to-[#6d28d9] text-white flex items-center justify-center text-3xl shadow-md">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+
+                            <h2 class="text-2xl sm:text-4xl font-black text-[#0f172a]">شهادة سفير الأمان الرقمي</h2>
+                            <p class="text-sm sm:text-base font-bold text-[#1e293b]">تُمنح هذه الشهادة التقديرية إلى الطالب / المشارك:</p>
+
+                            <div id="cert-student-name" class="text-2xl sm:text-3xl font-black text-[#1d4ed8] py-2 border-b-2 border-dashed border-slate-400 inline-block px-8">
+                                اسم الطالب
+                            </div>
+
+                            <p class="text-sm sm:text-base text-[#1e293b] font-semibold leading-relaxed">
+                                (<span id="cert-student-grade" class="font-bold">الصف العاشر</span>) من <span id="cert-school-name" class="font-black text-[#0f172a]">مدرسة محمد بن القاسم الثقفي</span>، وذلك لاجتيازه مقياس الوعي الرقمي بنجاح بدرجة (<span id="cert-score-val" class="font-black text-[#6d28d9]">٥ من ٥</span>) ضمن فعاليات الحملة التوعوية <strong>«وعيك الرقمي أمانك»</strong> المنفذة خلال الفترة من ١٨ نوفمبر إلى ٩ ديسمبر ٢٠٢٦م.
+                            </p>
+
+                            <div class="pt-6 grid grid-cols-2 gap-4 text-xs sm:text-sm font-extrabold text-[#0f172a] border-t border-slate-200 mt-6">
+                                <div>
+                                    <div>منسق الحملة ومعد المبادرة</div>
+                                    <div class="text-[#1d4ed8] mt-1 font-black">أ/ عماد جابر محمد</div>
+                                </div>
+                                <div>
+                                    <div>وسم الحملة المعتمد</div>
+                                    <div class="text-[#6d28d9] mt-1 font-black" dir="ltr">#وعيك_الرقمي_أمانك</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- الصفحة الثانية المستقلة تماماً: بوابة منسقي الحملة والمعلمين          -->
+    <!-- ===================================================================== -->
+    <div id="admin-portal-view" class="hidden flex-grow flex flex-col bg-[#f8fafc]">
+        <!-- ترويسة بوابة المعلمين والمنسقين -->
+        <header class="bg-white border-b-4 border-[#6d28d9] shadow-sm">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#1d4ed8] to-[#6d28d9] text-white flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="text-xs font-black bg-purple-100 text-[#6d28d9] px-2.5 py-0.5 rounded-full">صفحة مستقلة للمنسقين والمعلمين</span>
+                            <span class="text-xs font-bold text-slate-600">مدرسة محمد بن القاسم الثقفي | محافظة ظفار</span>
+                        </div>
+                        <h1 class="text-xl sm:text-2xl font-black text-[#0f172a] mt-1">لوحة المنسقين والخطة التنفيذية للمدارس</h1>
+                    </div>
+                </div>
+
+                <button onclick="exitAdminPortal()" class="bg-[#0f172a] hover:bg-slate-800 text-white font-extrabold px-5 py-2.5 rounded-2xl text-xs sm:text-sm flex items-center gap-2 shadow-sm transition cursor-pointer">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <span>العودة إلى بوابة الطلبة</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- محتوى بوابة المعلمين المستقلة -->
+        <main class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+            <!-- ١. لوحة تجميع وتحليل نتائج الاستبيان القبلي والبعدي المتصلة بـ Google Sheets -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-[#1d4ed8]/30 space-y-6">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-5 border-b border-slate-200">
+                    <div>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="text-xs font-black text-[#1d4ed8] bg-blue-50 border border-blue-200 px-3 py-1 rounded-full">قياس الأثر وتجميع البيانات</span>
+                            <span id="cloud-connection-pill" class="text-xs font-black text-emerald-800 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
+                                <i class="fa-solid fa-circle-check ml-1"></i> مربوط تلقائياً مع Google Sheets
+                            </span>
+                        </div>
+                        <h2 class="text-2xl font-black text-[#0f172a] mt-2">لوحة تحليل نتائج الاستبيان القبلي والبعدي (مباشر)</h2>
+                        <p class="text-sm font-semibold text-[#1e293b] mt-1">تُجلب جميع استجابات الطلبة تلقائياً من جدول بيانات Google Sheets المربوط، مع إمكانية التصفية والتصدير إلى Excel.</p>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-2.5">
+                        <button onclick="fetchCloudData(true)" id="btn-refresh-cloud" class="bg-[#1d4ed8] hover:bg-blue-800 text-white font-extrabold px-4 py-2.5 rounded-xl text-xs sm:text-sm flex items-center gap-2 shadow-sm cursor-pointer">
+                            <i id="refresh-cloud-icon" class="fa-solid fa-rotate"></i>
+                            <span>تحديث البيانات من السحابة</span>
+                        </button>
+                        <button onclick="exportResponsesToCSV()" class="bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold px-4 py-2.5 rounded-xl text-xs sm:text-sm flex items-center gap-2 shadow-sm cursor-pointer">
+                            <i class="fa-solid fa-file-excel"></i>
+                            <span>تصدير Excel / CSV</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- بطاقات الإحصائيات المقارنة بالأرقام المشرقية -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="p-5 rounded-2xl bg-slate-50 border-2 border-slate-200">
+                        <div class="text-xs font-extrabold text-slate-600">إجمالي الاستجابات السحابية</div>
+                        <div class="text-3xl font-black text-[#0f172a] mt-1" id="stat-total-responses">٠</div>
+                        <div class="text-xs font-bold text-slate-600 mt-1">قبلي: <span id="stat-pre-count">٠</span> | بعدي: <span id="stat-post-count">٠</span></div>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-blue-50/70 border-2 border-blue-200">
+                        <div class="text-xs font-extrabold text-[#1d4ed8]">متوسط درجات التقييم القبلي</div>
+                        <div class="text-3xl font-black text-[#0f172a] mt-1"><span id="stat-pre-avg">٠</span> <span class="text-base font-bold text-slate-600">/ ٥</span></div>
+                        <div class="text-xs font-bold text-[#1d4ed8] mt-1">النسبة المئوية: <span id="stat-pre-pct">٠٪</span></div>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-purple-50/70 border-2 border-purple-200">
+                        <div class="text-xs font-extrabold text-[#6d28d9]">متوسط درجات التقييم البعدي</div>
+                        <div class="text-3xl font-black text-[#0f172a] mt-1"><span id="stat-post-avg">٠</span> <span class="text-base font-bold text-slate-600">/ ٥</span></div>
+                        <div class="text-xs font-bold text-[#6d28d9] mt-1">النسبة المئوية: <span id="stat-post-pct">٠٪</span></div>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-emerald-50/80 border-2 border-emerald-300">
+                        <div class="text-xs font-extrabold text-emerald-800">مؤشر التحسن في الوعي الرقمي</div>
+                        <div class="text-3xl font-black text-emerald-700 mt-1" id="stat-improvement">+٠٪</div>
+                        <div class="text-xs font-bold text-emerald-800 mt-1">الفارق بين البعدي والقبلي</div>
+                    </div>
+                </div>
+
+                <!-- قسم الأعمدة البيانية التفاعلية لتحليل النتائج والأسئلة -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 pt-2">
+                    <!-- الرسم البياني الأول: مقارنة متوسط الأداء العام (قبلي مقابل بعدي) -->
+                    <div class="lg:col-span-5 bg-slate-50 rounded-2xl p-5 border-2 border-slate-200 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-base font-black text-[#0f172a] flex items-center gap-2">
+                                <i class="fa-solid fa-chart-column text-[#1d4ed8]"></i>
+                                مقارنة نسبة الوعي العام (قبلي / بعدي)
+                            </h3>
+                            <p class="text-xs font-semibold text-slate-600 mt-1">تمثيل بالأعمدة البيانية لمتوسط درجات الطلبة قبل وبعد الحملة.</p>
+                        </div>
+
+                        <div class="h-52 flex items-end justify-center gap-10 pt-8 pb-2 px-4 border-b-2 border-slate-300 mt-4">
+                            <!-- عمود القبلي -->
+                            <div class="flex flex-col items-center gap-2 w-24">
+                                <span id="chart-pre-label" class="text-sm font-black text-[#1d4ed8]">٠٪</span>
+                                <div class="w-full h-36 bg-slate-200/70 rounded-t-xl flex items-end overflow-hidden p-1">
+                                    <div id="chart-pre-bar" class="w-full bg-gradient-to-t from-[#1d4ed8] to-sky-400 rounded-t-lg transition-all duration-500" style="height: 0%"></div>
+                                </div>
+                                <span class="text-xs font-black text-[#0f172a]">التقييم القبلي</span>
+                            </div>
+
+                            <!-- عمود البعدي -->
+                            <div class="flex flex-col items-center gap-2 w-24">
+                                <span id="chart-post-label" class="text-sm font-black text-[#6d28d9]">٠٪</span>
+                                <div class="w-full h-36 bg-slate-200/70 rounded-t-xl flex items-end overflow-hidden p-1">
+                                    <div id="chart-post-bar" class="w-full bg-gradient-to-t from-[#6d28d9] to-purple-400 rounded-t-lg transition-all duration-500" style="height: 0%"></div>
+                                </div>
+                                <span class="text-xs font-black text-[#0f172a]">التقييم البعدي</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center justify-center gap-4 text-xs font-bold text-slate-600 mt-3">
+                            <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-[#1d4ed8] inline-block"></span> قبلي</span>
+                            <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-[#6d28d9] inline-block"></span> بعدي</span>
+                        </div>
+                    </div>
+
+                    <!-- الرسم البياني الثاني: نسبة الإتقان لكل سؤال من الأسئلة الخمسة -->
+                    <div class="lg:col-span-7 bg-slate-50 rounded-2xl p-5 border-2 border-slate-200 flex flex-col justify-between">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div>
+                                <h3 class="text-base font-black text-[#0f172a] flex items-center gap-2">
+                                    <i class="fa-solid fa-bars-progress text-[#6d28d9]"></i>
+                                    نسبة الإجابات الصحيحة لكل سؤال (س١ – س٥)
+                                </h3>
+                                <p class="text-xs font-semibold text-slate-600 mt-1">تحليل تفصيلي لمحاور الوعي الخمسة لتحديد نقاط القوة والجوانب التي تحتاج تركيزاً.</p>
+                            </div>
+                        </div>
+
+                        <div id="questions-bar-chart" class="space-y-3.5 mt-4">
+                            <!-- يتم توليد الأعمدة البيانية للأسئلة الخمسة ديناميكياً -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- شريط تصفية الجدول وحالة الربط السحابي -->
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="text-xs font-black text-[#0f172a] ml-1">تصفية النتائج:</span>
+                        <button onclick="setTableFilter('الكل')" id="filter-btn-all" class="px-3.5 py-1.5 rounded-xl text-xs font-black bg-[#0f172a] text-white cursor-pointer">الكل</button>
+                        <button onclick="setTableFilter('قبلي')" id="filter-btn-pre" class="px-3.5 py-1.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-[#1e293b] cursor-pointer">التقييم القبلي فقط</button>
+                        <button onclick="setTableFilter('بعدي')" id="filter-btn-post" class="px-3.5 py-1.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-[#1e293b] cursor-pointer">التقييم البعدي فقط</button>
+                    </div>
+
+                    <button type="button" onclick="toggleAdvancedWebhookBox()" class="text-xs font-extrabold text-[#1d4ed8] hover:underline flex items-center gap-1 cursor-pointer">
+                        <i class="fa-solid fa-gear"></i> إعدادات رابط Google Apps Script
+                    </button>
+                </div>
+
+                <!-- إعدادات متقدمة لتعديل رابط السكربت إذا لزم الأمر -->
+                <div id="advanced-webhook-box" class="hidden bg-slate-50 rounded-2xl p-4 border-2 border-slate-200 space-y-3">
+                    <div class="text-xs font-bold text-[#1e293b]">
+                        رابط تطبيق الويب السحابي المربوط حالياً بالصفحة:
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-2.5">
+                        <input type="url" id="google-sheets-webhook-input" class="flex-grow px-3.5 py-2 rounded-xl border border-slate-300 text-xs font-mono text-[#0f172a] bg-white" dir="ltr">
+                        <button type="button" onclick="saveGoogleSheetsUrl()" class="bg-[#1d4ed8] hover:bg-blue-800 text-white font-extrabold px-4 py-2 rounded-xl text-xs shrink-0 cursor-pointer">
+                            تحديث الرابط
+                        </button>
+                        <button type="button" onclick="resetDefaultScriptUrl()" class="bg-slate-200 hover:bg-slate-300 text-[#0f172a] font-extrabold px-4 py-2 rounded-xl text-xs shrink-0 cursor-pointer">
+                            استعادة الرابط الافتراضي
+                        </button>
+                    </div>
+                </div>
+
+                <!-- جدول أحدث الاستجابات المسجلة -->
+                <div class="overflow-x-auto rounded-2xl border border-slate-200">
+                    <table class="w-full text-right text-xs sm:text-sm">
+                        <thead class="bg-slate-100 text-[#0f172a] font-black border-b border-slate-200">
+                            <tr>
+                                <th class="p-3.5">النوع</th>
+                                <th class="p-3.5">اسم الطالب / المشارك</th>
+                                <th class="p-3.5">الصف</th>
+                                <th class="p-3.5">المدرسة</th>
+                                <th class="p-3.5">الدرجة</th>
+                                <th class="p-3.5">التاريخ والوقت</th>
+                            </tr>
+                        </thead>
+                        <tbody id="responses-table-body" class="divide-y divide-slate-200 font-semibold text-[#1e293b]">
+                            <tr>
+                                <td colspan="6" class="p-5 text-center text-slate-600 font-bold">جاري مزامنة البيانات من Google Sheets...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ٢. الخطة التنفيذية بأربع مراحل وقائمة مهام تفاعلية -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 border-b border-slate-200">
+                    <div>
+                        <span class="text-xs font-black text-emerald-800 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">١٨ نوفمبر – ٩ ديسمبر ٢٠٢٦م</span>
+                        <h2 class="text-2xl font-black text-[#0f172a] mt-2">الخطة التنفيذية وسجل إنجاز المدرسة</h2>
+                        <p class="text-sm font-semibold text-[#1e293b] mt-1">أشّر على الأنشطة المنفذة في مدرستك؛ يتم حفظ نسبة الإنجاز تلقائياً في المتصفح.</p>
+                    </div>
+
+                    <div class="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 min-w-[250px]">
+                        <div class="flex justify-between text-xs font-black mb-1.5">
+                            <span class="text-[#1e293b]">نسبة إنجاز خطة المدرسة:</span>
+                            <span id="school-progress-text" class="text-emerald-800">٠٪ (٠ / ١٦)</span>
+                        </div>
+                        <div class="w-full h-3 bg-slate-200 rounded-full overflow-hidden">
+                            <div id="school-progress-bar" class="h-full bg-gradient-to-l from-emerald-600 to-[#1d4ed8] w-0 transition-all duration-300"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="phases-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6"></div>
+            </div>
+
+            <!-- ٣. جدول الأنشطة الجاهزة للتنفيذ والمؤقت الصفي التفاعلي -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-slate-200">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 mb-6">
+                    <div>
+                        <h3 class="text-xl sm:text-2xl font-black text-[#0f172a]">أفكار أنشطة جاهزة للتنفيذ والمؤقت الصفي</h3>
+                        <p class="text-xs sm:text-sm font-semibold text-[#1e293b]">اختر مدة النشاط لتشغيل المؤقت التفاعلي مباشرة أمام الطلبة في الحصة الصفية.</p>
+                    </div>
+
+                    <div class="bg-[#0f172a] text-white rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4 shadow-md">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-blue-500/20 text-sky-400 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-stopwatch"></i>
+                            </div>
+                            <div>
+                                <div class="text-[11px] text-sky-300 font-bold" id="timer-activity-label">مؤقت النشاط الصفي</div>
+                                <div class="text-2xl font-black tracking-wider text-white" id="classroom-timer-display">١٥:٠٠</div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-1.5">
+                            <button onclick="setTimerMinutes(10, 'كلمة مروري درعي')" class="px-2.5 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 text-xs font-extrabold cursor-pointer">١٠ د</button>
+                            <button onclick="setTimerMinutes(15, 'صيد الرابط / تحقّق')" class="px-2.5 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 text-xs font-extrabold cursor-pointer">١٥ د</button>
+                            <button onclick="setTimerMinutes(20, 'ماذا أفعل؟')" class="px-2.5 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 text-xs font-extrabold cursor-pointer">٢٠ د</button>
+                            <button onclick="toggleTimer()" id="timer-toggle-btn" class="px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-[#0f172a] text-xs font-black cursor-pointer">
+                                <i class="fa-solid fa-play ml-1"></i> ابدأ
+                            </button>
+                            <button onclick="resetTimer()" class="p-1.5 rounded-lg bg-white/15 hover:bg-rose-600 text-xs cursor-pointer" title="إعادة ضبط">
+                                <i class="fa-solid fa-rotate-left"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto rounded-2xl border border-slate-200">
+                    <table class="w-full text-right border-collapse">
+                        <thead>
+                            <tr class="bg-slate-100 text-[#0f172a] text-xs sm:text-sm font-black border-b border-slate-200">
+                                <th class="p-4">النشاط</th>
+                                <th class="p-4">طريقة التنفيذ</th>
+                                <th class="p-4 w-32">المدة</th>
+                                <th class="p-4 w-36 text-center">تشغيل المؤقت</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-xs sm:text-sm font-semibold text-[#1e293b]">
+                            <tr class="hover:bg-blue-50/50">
+                                <td class="p-4 font-black text-[#1d4ed8]">صيد الرابط المشبوه</td>
+                                <td class="p-4">يعرض المعلم رسائل افتراضية، ويحدد الطلبة علامات الخطر.</td>
+                                <td class="p-4 font-bold">١٥ دقيقة</td>
+                                <td class="p-4 text-center">
+                                    <button onclick="startActivityTimer(15, 'صيد الرابط المشبوه')" class="bg-[#1d4ed8] hover:bg-blue-800 text-white px-3 py-1.5 rounded-xl text-xs font-extrabold cursor-pointer">
+                                        <i class="fa-solid fa-play ml-1"></i> ١٥ دقيقة
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-blue-50/50">
+                                <td class="p-4 font-black text-[#1d4ed8]">كلمة مروري درعي</td>
+                                <td class="p-4">ترتيب نصائح تكوين كلمة مرور قوية دون كتابة كلمة مرور حقيقية.</td>
+                                <td class="p-4 font-bold">١٠ دقائق</td>
+                                <td class="p-4 text-center">
+                                    <button onclick="startActivityTimer(10, 'كلمة مروري درعي')" class="bg-[#1d4ed8] hover:bg-blue-800 text-white px-3 py-1.5 rounded-xl text-xs font-extrabold cursor-pointer">
+                                        <i class="fa-solid fa-play ml-1"></i> ١٠ دقائق
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-blue-50/50">
+                                <td class="p-4 font-black text-[#1d4ed8]">أوقف – فكّر – تحقّق</td>
+                                <td class="p-4">تحليل خبر أو صورة تدريبية وتحديد المصدر والتاريخ.</td>
+                                <td class="p-4 font-bold">١٥ دقيقة</td>
+                                <td class="p-4 text-center">
+                                    <button onclick="startActivityTimer(15, 'أوقف – فكّر – تحقّق')" class="bg-[#1d4ed8] hover:bg-blue-800 text-white px-3 py-1.5 rounded-xl text-xs font-extrabold cursor-pointer">
+                                        <i class="fa-solid fa-play ml-1"></i> ١٥ دقيقة
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-blue-50/50">
+                                <td class="p-4 font-black text-[#1d4ed8]">ماذا أفعل؟</td>
+                                <td class="p-4">مجموعات تناقش سيناريو تنمر أو ابتزاز وتختار خطوات آمنة لطلب المساعدة.</td>
+                                <td class="p-4 font-bold">٢٠ دقيقة</td>
+                                <td class="p-4 text-center">
+                                    <button onclick="startActivityTimer(20, 'ماذا أفعل؟')" class="bg-[#1d4ed8] hover:bg-blue-800 text-white px-3 py-1.5 rounded-xl text-xs font-extrabold cursor-pointer">
+                                        <i class="fa-solid fa-play ml-1"></i> ٢٠ دقيقة
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-blue-50/50">
+                                <td class="p-4 font-black text-[#6d28d9]">سفير الأمان الرقمي</td>
+                                <td class="p-4">طلبة ينشرون رسائل توعوية قصيرة في المدرسة بإشراف المعلم.</td>
+                                <td class="p-4 font-bold text-[#6d28d9]">طوال الحملة</td>
+                                <td class="p-4 text-center">
+                                    <span class="inline-block bg-purple-100 text-[#6d28d9] px-3 py-1 rounded-xl text-xs font-black">مستمر</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ٤. مؤشرات قياس الأثر وعناصر التقرير الختامي – ديسمبر ٢٠٢٦ -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                <div class="lg:col-span-7 bg-white rounded-3xl p-6 shadow-sm border-2 border-slate-200 space-y-4">
+                    <h3 class="text-lg sm:text-xl font-black text-[#0f172a] flex items-center gap-2">
+                        <i class="fa-solid fa-chart-line text-[#1d4ed8]"></i>
+                        مؤشرات متابعة التنفيذ وقياس الأثر
+                    </h3>
+                    <div class="overflow-x-auto rounded-2xl border border-slate-200">
+                        <table class="w-full text-right text-xs sm:text-sm">
+                            <thead class="bg-slate-100 text-[#0f172a] font-black">
+                                <tr>
+                                    <th class="p-3">المؤشر</th>
+                                    <th class="p-3">البيانات المطلوبة</th>
+                                    <th class="p-3">مصدر التحقق</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 font-semibold text-[#1e293b]">
+                                <tr>
+                                    <td class="p-3 font-black text-[#1d4ed8]">المدارس المشاركة</td>
+                                    <td class="p-3">عدد المدارس وأسماؤها والولايات</td>
+                                    <td class="p-3 font-bold">نموذج التسجيل</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-black text-[#1d4ed8]">المستفيدون</td>
+                                    <td class="p-3">أعداد الطلبة والأسر والموظفين</td>
+                                    <td class="p-3 font-bold">سجلات الأنشطة</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-black text-[#1d4ed8]">الأنشطة</td>
+                                    <td class="p-3">النوع والمحور والتاريخ والعدد</td>
+                                    <td class="p-3 font-bold">نموذج توثيق النشاط</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-black text-[#1d4ed8]">الأثر</td>
+                                    <td class="p-3">نتائج قبلي/بعدي وملاحظات</td>
+                                    <td class="p-3 font-bold">الاستبيانات والتقييم</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-black text-[#1d4ed8]">أفضل الممارسات</td>
+                                    <td class="p-3">مبادرات ناجحة وتوصيات</td>
+                                    <td class="p-3 font-bold">ملف الشواهد وتقرير المدرسة</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-xs font-bold text-[#1e293b] bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+                        <i class="fa-solid fa-circle-info text-[#1d4ed8] ml-1"></i>
+                        قنوات التنفيذ: الإذاعة المدرسية، الحصص الصفية، الأنشطة اللاصفية، اللوحات والممرات، المنصات الرقمية المدرسية، لقاءات أولياء الأمور، ومبادرات يقودها الطلبة بإشراف المدرسة.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-5 bg-white rounded-3xl p-6 shadow-sm border-2 border-slate-200 space-y-5">
+                    <div>
+                        <h3 class="text-lg font-black text-[#0f172a] flex items-center gap-2 mb-3">
+                            <i class="fa-solid fa-file-signature text-[#6d28d9]"></i>
+                            النماذج الإلكترونية المقترحة (Microsoft Forms)
+                        </h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs font-extrabold">
+                            <div class="p-3 rounded-xl bg-blue-50 text-[#1d4ed8] border border-blue-200">١. تسجيل مشاركة المدرسة</div>
+                            <div class="p-3 rounded-xl bg-blue-50 text-[#1d4ed8] border border-blue-200">٢. توثيق نشاط منفذ</div>
+                            <div class="p-3 rounded-xl bg-purple-50 text-[#6d28d9] border border-purple-200">٣. استبيان قبلي/بعدي للطلبة</div>
+                            <div class="p-3 rounded-xl bg-purple-50 text-[#6d28d9] border border-purple-200">٤. تقييم فعالية</div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 border-t border-slate-200">
+                        <h3 class="text-lg font-black text-[#0f172a] flex items-center gap-2 mb-2">
+                            <i class="fa-solid fa-folder-open text-emerald-700"></i>
+                            عناصر التقرير الختامي – ديسمبر ٢٠٢٦م
+                        </h3>
+                        <ul class="space-y-1.5 text-xs font-bold text-[#1e293b] list-disc list-inside">
+                            <li>اسم المدرسة والولاية ومنسق الحملة.</li>
+                            <li>ملخص الأنشطة المنفذة وتواريخها ومحاورها.</li>
+                            <li>الفئات المستهدفة وأعداد المستفيدين.</li>
+                            <li>نتائج الاستبيان القبلي والبعدي وتحليل التحسن.</li>
+                            <li>الشراكات المجتمعية ومشاركة أولياء الأمور والمختصين.</li>
+                            <li>أفضل الممارسات والتحديات والحلول والتوصيات.</li>
+                            <li>شواهد التنفيذ مع مراعاة موافقات التصوير وخصوصية الطلبة.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- التذييل المشترك (Footer) مع رابط دخول المعلمين المحمي                 -->
+    <!-- ===================================================================== -->
+    <footer id="shared-main-footer" class="hidden bg-white text-[#0f172a] border-t-2 border-slate-200 mt-12 no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="bg-blue-50/80 border-2 border-blue-200 rounded-3xl p-6 text-center max-w-4xl mx-auto mb-6">
+                <span class="inline-flex items-center gap-1.5 text-xs font-black text-[#1d4ed8] bg-white border border-blue-200 px-3 py-1 rounded-full mb-2">
+                    <i class="fa-solid fa-sparkles"></i> رسالة ختامية للطلبة
+                </span>
+                <p class="text-base sm:text-lg font-extrabold leading-relaxed text-[#0f172a]">
+                    «العالم الرقمي مساحة للتعلم والإبداع والتواصل. اجعل حضورك فيه آمناً ومحترماً: احمِ خصوصيتك، تحقق من المعلومات، احترم الآخرين، واطلب المساعدة عندما تحتاج إليها. <span class="text-[#1d4ed8] font-black">وعيك الرقمي أمانك.</span>»
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-5 border-t border-slate-200 text-xs sm:text-sm">
+                <div class="flex items-center gap-2 font-black text-[#0f172a]">
+                    <i class="fa-solid fa-school text-[#1d4ed8]"></i>
+                    <span>مدرسة محمد بن القاسم الثقفي – محافظة ظفار</span>
+                </div>
+
+                <div class="font-extrabold text-[#1e293b]">
+                    تصميم وإعداد: <span class="text-[#1d4ed8] font-black">أ/ عماد جابر محمد</span>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <span dir="ltr" class="text-[#6d28d9] font-black">#وعيك_الرقمي_أمانك</span>
+                    <span class="text-slate-300">|</span>
+                    <button onclick="openAdminModal()" class="text-xs font-extrabold text-slate-600 hover:text-[#1d4ed8] bg-slate-100 hover:bg-blue-50 border border-slate-200 px-3 py-1.5 rounded-xl transition flex items-center gap-1.5 cursor-pointer">
+                        <i class="fa-solid fa-lock text-[#6d28d9]"></i>
+                        <span>بوابة منسقي الحملة والمعلمين</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===================================================================== -->
+    <!-- المنطق البرمجي التفاعلي والمزامنة السحابية مع Google Sheets            -->
+    <!-- ===================================================================== -->
+    <script>
+        // رابط Google Apps Script المربوط مباشرة لتجميع البيانات من جميع أجهزة الطلبة والمعلمين
+        const DEFAULT_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyzPWx10kGL0zy-LTy-QAPNjLGChloQXnorZReGQuqisYE-RmOZwLf05nJnYfSHR9gD/exec";
+
+        function getActiveScriptUrl() {
+            const custom = localStorage.getItem('dhofar_awareness_sheets_webhook_2026');
+            return (custom && custom.startsWith('http')) ? custom : DEFAULT_SCRIPT_URL;
+        }
+
+        // تحويل الأرقام الإنجليزية إلى مشرقية (١، ٢، ٣...)
+        function toArabicDigits(num) {
+            const eastern = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+            return String(num).replace(/\d/g, d => eastern[d]);
+        }
+
+        // مؤثرات صوتية خفيفة
+        function playFeedbackSound(type = 'click') {
+            try {
+                if (typeof Tone === 'undefined') return;
+                if (Tone.context.state !== 'running') {
+                    Tone.start();
+                }
+                const synth = new Tone.Synth({
+                    oscillator: { type: 'sine' },
+                    envelope: { attack: 0.01, decay: 0.1, sustain: 0, release: 0.1 }
+                }).toDestination();
+                synth.volume.value = -15;
+                if (type === 'success') {
+                    synth.triggerAttackRelease('C5', '16n');
+                    setTimeout(() => synth.triggerAttackRelease('E5', '16n'), 80);
+                } else if (type === 'error') {
+                    synth.triggerAttackRelease('A3', '16n');
+                } else {
+                    synth.triggerAttackRelease('G4', '32n');
+                }
+            } catch (e) {}
+        }
+
+        function showToast(message, isSuccess = true) {
+            const toast = document.getElementById('toast-notification');
+            const msgEl = document.getElementById('toast-message');
+            const iconEl = document.getElementById('toast-icon');
+            msgEl.textContent = message;
+            iconEl.className = isSuccess
+                ? 'fa-solid fa-circle-check text-emerald-400'
+                : 'fa-solid fa-circle-info text-sky-400';
+            toast.classList.remove('translate-y-24', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-24', 'opacity-0');
+            }, 3400);
+        }
+
+        function copyHashtag() {
+            const hashtag = '#وعيك_الرقمي_أمانك';
+            const tempInput = document.createElement('input');
+            tempInput.value = hashtag;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            playFeedbackSound('success');
+            showToast('تم نسخ وسم الحملة: #وعيك_الرقمي_أمانك');
+        }
+
+        // =====================================================================
+        // إدارة التنقل بين بوابة الطلبة وبوابة المعلمين/المنسقين (PIN: 8131)
+        // =====================================================================
+        const ADMIN_PIN = '8131';
+
+        function openAdminModal() {
+            document.getElementById('admin-login-modal').classList.remove('hidden');
+            document.getElementById('admin-pin-input').value = '';
+            document.getElementById('admin-pin-error').classList.add('hidden');
+            setTimeout(() => document.getElementById('admin-pin-input').focus(), 100);
+        }
+
+        function closeAdminModal() {
+            document.getElementById('admin-login-modal').classList.add('hidden');
+        }
+
+        function togglePinHint() {
+            document.getElementById('pin-hint-badge').classList.toggle('hidden');
+        }
+
+        function verifyAdminPin(e) {
+            e.preventDefault();
+            const entered = document.getElementById('admin-pin-input').value.trim();
+            if (entered === ADMIN_PIN) {
+                closeAdminModal();
+                enterAdminPortal();
+                playFeedbackSound('success');
+                showToast('مرحباً بك في لوحة منسقي الحملة والخطة التنفيذية');
+            } else {
+                document.getElementById('admin-pin-error').classList.remove('hidden');
+                playFeedbackSound('error');
+            }
+        }
+
+        function enterAdminPortal() {
+            document.getElementById('pre-survey-gate-view').classList.add('hidden');
+            document.getElementById('student-portal-view').classList.add('hidden');
+            document.getElementById('admin-portal-view').classList.remove('hidden');
+            document.getElementById('shared-main-footer').classList.remove('hidden');
+            window.location.hash = 'admin';
+            document.getElementById('google-sheets-webhook-input').value = getActiveScriptUrl();
+            renderAdminAnalytics(getLocalResponses());
+            fetchCloudData(false);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function exitAdminPortal() {
+            document.getElementById('admin-portal-view').classList.add('hidden');
+            history.replaceState(null, null, ' ');
+            const preState = getVisitorPreSurveyState();
+            if (preState && preState.completed) {
+                unlockStudentPortal(preState, false);
+            } else {
+                document.getElementById('student-portal-view').classList.add('hidden');
+                document.getElementById('shared-main-footer').classList.add('hidden');
+                document.getElementById('pre-survey-gate-view').classList.remove('hidden');
+            }
+            playFeedbackSound('click');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function switchStudentTab(tabId) {
+            const tabs = ['pillars', 'lab', 'survey'];
+            tabs.forEach(id => {
+                const content = document.getElementById(`tab-content-${id}`);
+                const btn = document.getElementById(`tab-btn-${id}`);
+                if (id === tabId) {
+                    content.classList.remove('hidden');
+                    btn.classList.add('active');
+                    btn.classList.remove('text-[#1e293b]', 'hover:bg-slate-100');
+                } else {
+                    content.classList.add('hidden');
+                    btn.classList.remove('active');
+                    btn.classList.add('text-[#1e293b]', 'hover:bg-slate-100');
+                }
+            });
+            playFeedbackSound('click');
+            window.scrollTo({ top: 260, behavior: 'smooth' });
+        }
+
+        // =====================================================================
+        // الاستبيان القبلي الإلزامي (Gate) + الاستبيان البعدي + المزامنة السحابية
+        // =====================================================================
+        const RESPONSES_STORAGE_KEY = 'dhofar_awareness_survey_responses_2026';
+        const VISITOR_PRE_STATE_KEY = 'dhofar_visitor_pre_survey_done_2026';
+
+        const quizQuestions = [
+            {
+                id: 'q1',
+                question: '١. هل تشارك كلمة المرور أو رمز التحقق مع أصدقائك؟',
+                options: [
+                    { label: 'نعم، إذا كنت أثق بهم', isCorrect: false },
+                    { label: 'لا', isCorrect: true },
+                    { label: 'أحياناً عند الضرورة', isCorrect: false }
+                ]
+            },
+            {
+                id: 'q2',
+                question: '٢. وصلك رابط يخبرك بفوزك بجائزة مالية ويطلب بياناتك، ماذا تفعل؟',
+                options: [
+                    { label: 'أفتح الرابط فوراً لاستلام الجائزة', isCorrect: false },
+                    { label: 'أتحقق من المرسل والمصدر', isCorrect: true },
+                    { label: 'أرسله لزملائي ليجربوه قبلي', isCorrect: false }
+                ]
+            },
+            {
+                id: 'q3',
+                question: '٣. هل تراجع إعدادات الخصوصية قبل نشر صورك أو موقعك الجغرافي؟',
+                options: [
+                    { label: 'نعم', isCorrect: true },
+                    { label: 'إلى حد ما', isCorrect: false },
+                    { label: 'لا أهتم بذلك', isCorrect: false }
+                ]
+            },
+            {
+                id: 'q4',
+                question: '٤. إذا تعرضت للتنمر أو الابتزاز الرقمي، لمن تلجأ فوراً؟',
+                options: [
+                    { label: 'أستجيب للمبتز وأنفذ طلباته سراً', isCorrect: false },
+                    { label: 'شخص بالغ موثوق أو إدارة المدرسة', isCorrect: true },
+                    { label: 'أحذف الأدلة وألتزم الصمت', isCorrect: false }
+                ]
+            },
+            {
+                id: 'q5',
+                question: '٥. هل تتحقق من صحة الأخبار والصور قبل إعادة نشرها؟',
+                options: [
+                    { label: 'دائماً', isCorrect: true },
+                    { label: 'نادراً', isCorrect: false },
+                    { label: 'أنشر أي خبر مثير مباشرة', isCorrect: false }
+                ]
+            }
+        ];
+
+        let currentSurveyType = 'بعدي';
+        let cloudRecordsCache = [];
+        let currentTableFilter = 'الكل';
+
+        function getVisitorPreSurveyState() {
+            try {
+                return JSON.parse(localStorage.getItem(VISITOR_PRE_STATE_KEY));
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function renderGateQuestions() {
+            const container = document.getElementById('gate-questions-list');
+            if (!container) return;
+            container.innerHTML = quizQuestions.map(q => `
+                <div class="p-4 sm:p-5 rounded-2xl bg-slate-50 border-2 border-slate-200 space-y-3">
+                    <div class="font-black text-[#0f172a] text-sm sm:text-base">${q.question}</div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5">
+                        ${q.options.map((opt) => `
+                            <label class="flex items-center gap-3 p-3 rounded-xl bg-white border-2 border-slate-200 hover:border-[#1d4ed8] cursor-pointer transition">
+                                <input type="radio" name="gate_${q.id}" value="${opt.isCorrect ? '1' : '0'}" data-label="${opt.label}" required class="w-4 h-4 text-[#1d4ed8] focus:ring-[#1d4ed8]">
+                                <span class="text-xs sm:text-sm font-extrabold text-[#1e293b]">${opt.label}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function submitMandatoryPreSurvey(e) {
+            e.preventDefault();
+            let score = 0;
+            const answersList = [];
+
+            quizQuestions.forEach(q => {
+                const selected = document.querySelector(`input[name="gate_${q.id}"]:checked`);
+                if (selected) {
+                    if (selected.value === '1') score++;
+                    answersList.push(selected.getAttribute('data-label') || '');
+                }
+            });
+
+            const percent = Math.round((score / quizQuestions.length) * 100);
+            const visitorName = document.getElementById('gate-visitor-name').value.trim();
+            const grade = document.getElementById('gate-visitor-grade').value;
+            const schoolName = document.getElementById('gate-visitor-school').value.trim();
+            const nowStr = new Date().toLocaleString('ar-OM', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+            const payload = {
+                date: nowStr,
+                type: 'قبلي',
+                name: visitorName,
+                grade: grade,
+                school: schoolName,
+                score: score,
+                percent: percent,
+                answers: answersList
+            };
+
+            // حفظ في السجل المحلي + إرسال فوري إلى Google Sheets
+            const localList = getLocalResponses();
+            localList.unshift(payload);
+            localStorage.setItem(RESPONSES_STORAGE_KEY, JSON.stringify(localList));
+            sendResponseToCloud(payload);
+
+            // حفظ حالة اجتياز الاستبيان القبلي للزائر
+            const preState = {
+                completed: true,
+                name: visitorName,
+                grade: grade,
+                school: schoolName,
+                score: score,
+                percent: percent
+            };
+            localStorage.setItem(VISITOR_PRE_STATE_KEY, JSON.stringify(preState));
+
+            playFeedbackSound('success');
+            unlockStudentPortal(preState, true);
+        }
+
+        function unlockStudentPortal(preState, showWelcomeToast = false) {
+            document.getElementById('pre-survey-gate-view').classList.add('hidden');
+            document.getElementById('student-portal-view').classList.remove('hidden');
+            document.getElementById('shared-main-footer').classList.remove('hidden');
+
+            if (preState) {
+                const badge = document.getElementById('visitor-pre-score-badge');
+                const scoreVal = document.getElementById('header-pre-score-val');
+                if (badge && scoreVal) {
+                    scoreVal.textContent = `${toArabicDigits(preState.score)} / ${toArabicDigits(quizQuestions.length)}`;
+                    badge.classList.remove('hidden');
+                }
+
+                // تعبئة بيانات الزائر تلقائياً في نموذج الاستبيان البعدي الداخلي
+                const nameInput = document.getElementById('student-name');
+                const gradeSelect = document.getElementById('student-grade');
+                const schoolInput = document.getElementById('student-school');
+                if (nameInput && preState.name) nameInput.value = preState.name;
+                if (gradeSelect && preState.grade) gradeSelect.value = preState.grade;
+                if (schoolInput && preState.school) schoolInput.value = preState.school;
+            }
+
+            currentSurveyType = 'بعدي';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            if (showWelcomeToast) {
+                showToast(`أهلاً بك ${preState.name}! درجتك القبلية ${toArabicDigits(preState.score)} من ٥. استكشف المحاور والمختبر الآن!`);
+            }
+        }
+
+        function renderQuizQuestions() {
+            const container = document.getElementById('quiz-questions-list');
+            container.innerHTML = quizQuestions.map(q => `
+                <div class="p-5 rounded-2xl bg-slate-50 border-2 border-slate-200 space-y-3">
+                    <div class="font-black text-[#0f172a] text-sm sm:text-base">${q.question}</div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        ${q.options.map((opt) => `
+                            <label class="flex items-center gap-3 p-3.5 rounded-xl bg-white border-2 border-slate-200 hover:border-[#1d4ed8] cursor-pointer transition">
+                                <input type="radio" name="${q.id}" value="${opt.isCorrect ? '1' : '0'}" data-label="${opt.label}" required class="w-4 h-4 text-[#1d4ed8] focus:ring-[#1d4ed8]">
+                                <span class="text-xs sm:text-sm font-extrabold text-[#1e293b]">${opt.label}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function getLocalResponses() {
+            try {
+                return JSON.parse(localStorage.getItem(RESPONSES_STORAGE_KEY)) || [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        async function sendResponseToCloud(payload) {
+            const scriptUrl = getActiveScriptUrl();
+            if (!scriptUrl) return;
+
+            try {
+                await fetch(scriptUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                    body: JSON.stringify(payload)
+                });
+            } catch (err) {
+                console.warn('Cloud POST fallback to local storage:', err);
+            }
+        }
+
+        function submitAwarenessQuiz(e) {
+            e.preventDefault();
+            let score = 0;
+            const answersList = [];
+
+            quizQuestions.forEach(q => {
+                const selected = document.querySelector(`input[name="${q.id}"]:checked`);
+                if (selected) {
+                    if (selected.value === '1') score++;
+                    answersList.push(selected.getAttribute('data-label') || '');
+                }
+            });
+
+            const percent = Math.round((score / quizQuestions.length) * 100);
+            const studentName = document.getElementById('student-name').value.trim();
+            const grade = document.getElementById('student-grade').value;
+            const schoolName = document.getElementById('student-school').value.trim();
+            const nowStr = new Date().toLocaleString('ar-OM', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+            const payload = {
+                date: nowStr,
+                type: currentSurveyType,
+                name: studentName,
+                grade: grade,
+                school: schoolName,
+                score: score,
+                percent: percent,
+                answers: answersList
+            };
+
+            // حفظ نسخة احتياطية محلية + إرسال فوري إلى Google Sheets
+            const localList = getLocalResponses();
+            localList.unshift(payload);
+            localStorage.setItem(RESPONSES_STORAGE_KEY, JSON.stringify(localList));
+            sendResponseToCloud(payload);
+
+            const preState = getVisitorPreSurveyState();
+            const preComparisonNote = preState
+                ? ` (مقارنة بدرجتك القبلية: ${toArabicDigits(preState.score)} / ٥)`
+                : '';
+
+            document.getElementById('result-badge-type').textContent = `نتيجة التقييم البعدي${preComparisonNote}`;
+            document.getElementById('quiz-score-display').textContent = `${toArabicDigits(score)} / ${toArabicDigits(quizQuestions.length)}`;
+            document.getElementById('quiz-percent-display').textContent = `${toArabicDigits(percent)}٪`;
+
+            const fbText = document.getElementById('quiz-feedback-text');
+            if (score === 5) {
+                fbText.textContent = 'أداء استثنائي! لديك وعي رقمي متكامل وتستحق لقب «سفير الأمان الرقمي» بجدارة.';
+            } else if (score >= 3) {
+                fbText.textContent = 'مستوى جيد جداً! راجع محاور التوعية الخمسة والمختبر التفاعلي لتعزيز معرفتك أكثر.';
+            } else {
+                fbText.textContent = 'بداية طيبة! ندعوك لتصفح بطاقات محاور التوعية الخمسة وتجربة المختبر التفاعلي ثم إعادة التقييم.';
+            }
+
+            document.getElementById('cert-student-name').textContent = studentName;
+            document.getElementById('cert-student-grade').textContent = grade;
+            document.getElementById('cert-school-name').textContent = schoolName;
+            document.getElementById('cert-score-val').textContent = `${toArabicDigits(score)} من ${toArabicDigits(quizQuestions.length)}`;
+
+            const resultSection = document.getElementById('quiz-result-section');
+            resultSection.classList.remove('hidden');
+            playFeedbackSound('success');
+            showToast('تم إرسال الاستبيان البعدي إلى سجل المدرسة السحابي وإصدار الشهادة!');
+            resultSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function resetQuiz() {
+            const preState = getVisitorPreSurveyState();
+            document.getElementById('awareness-quiz-form').reset();
+            if (preState) {
+                if (preState.name) document.getElementById('student-name').value = preState.name;
+                if (preState.grade) document.getElementById('student-grade').value = preState.grade;
+                if (preState.school) document.getElementById('student-school').value = preState.school;
+            }
+            document.getElementById('quiz-result-section').classList.add('hidden');
+            playFeedbackSound('click');
+        }
+
+        // =====================================================================
+        // جلب البيانات من السحابة وعرضها في لوحة المنسقين
+        // =====================================================================
+        async function fetchCloudData(showUserAlert = false) {
+            const scriptUrl = getActiveScriptUrl();
+            const icon = document.getElementById('refresh-cloud-icon');
+            const pill = document.getElementById('cloud-connection-pill');
+
+            if (icon) icon.classList.add('fa-spin');
+
+            try {
+                const response = await fetch(scriptUrl, { method: 'GET' });
+                if (!response.ok) throw new Error('Network error');
+                const data = await response.json();
+
+                if (Array.isArray(data)) {
+                    // ترتيب الأحدث أولاً
+                    cloudRecordsCache = data.slice().reverse().map(item => ({
+                        date: item.date || item.timestamp || '',
+                        type: item.type || item.surveyType || 'قبلي',
+                        name: item.name || item.studentName || 'مشارك',
+                        grade: item.grade || '',
+                        school: item.school || 'مدرسة محمد بن القاسم الثقفي',
+                        score: Number(item.score) || 0,
+                        percent: Number(item.percent) || Math.round(((Number(item.score) || 0) / 5) * 100),
+                        answers: Array.isArray(item.answers) ? item.answers : []
+                    }));
+
+                    renderAdminAnalytics(cloudRecordsCache);
+                    if (pill) {
+                        pill.className = 'text-xs font-black text-emerald-800 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full';
+                        pill.innerHTML = `<i class="fa-solid fa-cloud-check ml-1"></i> متصل ومحدّث من Google Sheets (${toArabicDigits(cloudRecordsCache.length)} سجل)`;
+                    }
+                    if (showUserAlert) {
+                        playFeedbackSound('success');
+                        showToast(`تم تحديث البيانات من السحابة (${toArabicDigits(cloudRecordsCache.length)} استجابة)`);
+                    }
+                }
+            } catch (err) {
+                // في حال عدم توفر الاتصال أو قبل نشر دالة doGet، اعرض السجل المحلي
+                const fallbackList = getLocalResponses();
+                cloudRecordsCache = fallbackList;
+                renderAdminAnalytics(fallbackList);
+                if (pill) {
+                    pill.className = 'text-xs font-black text-amber-900 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full';
+                    pill.innerHTML = `<i class="fa-solid fa-database ml-1"></i> عرض السجل المحلي (${toArabicDigits(fallbackList.length)} سجل)`;
+                }
+                if (showUserAlert) {
+                    showToast('تعذر جلب السجل السحابي حالياً، تم عرض السجل المحلي.', false);
+                }
+            } finally {
+                if (icon) icon.classList.remove('fa-spin');
+            }
+        }
+
+        function setTableFilter(filterVal) {
+            currentTableFilter = filterVal;
+            const btns = {
+                'الكل': document.getElementById('filter-btn-all'),
+                'قبلي': document.getElementById('filter-btn-pre'),
+                'بعدي': document.getElementById('filter-btn-post')
+            };
+            Object.keys(btns).forEach(k => {
+                if (k === filterVal) {
+                    btns[k].className = 'px-3.5 py-1.5 rounded-xl text-xs font-black bg-[#0f172a] text-white cursor-pointer';
+                } else {
+                    btns[k].className = 'px-3.5 py-1.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-[#1e293b] cursor-pointer';
+                }
+            });
+            renderAdminAnalytics(cloudRecordsCache.length ? cloudRecordsCache : getLocalResponses());
+            playFeedbackSound('click');
+        }
+
+        function renderAdminAnalytics(records) {
+            const list = Array.isArray(records) ? records : [];
+            const preList = list.filter(r => String(r.type).includes('قبلي'));
+            const postList = list.filter(r => String(r.type).includes('بعدي'));
+
+            const preAvg = preList.length ? (preList.reduce((acc, r) => acc + (Number(r.score) || 0), 0) / preList.length) : 0;
+            const postAvg = postList.length ? (postList.reduce((acc, r) => acc + (Number(r.score) || 0), 0) / postList.length) : 0;
+
+            const prePct = Math.round((preAvg / 5) * 100);
+            const postPct = Math.round((postAvg / 5) * 100);
+            const diffPct = (preList.length && postList.length) ? (postPct - prePct) : 0;
+
+            document.getElementById('stat-total-responses').textContent = toArabicDigits(list.length);
+            document.getElementById('stat-pre-count').textContent = toArabicDigits(preList.length);
+            document.getElementById('stat-post-count').textContent = toArabicDigits(postList.length);
+
+            document.getElementById('stat-pre-avg').textContent = toArabicDigits(preAvg.toFixed(1));
+            document.getElementById('stat-pre-pct').textContent = `${toArabicDigits(prePct)}٪`;
+
+            document.getElementById('stat-post-avg').textContent = toArabicDigits(postAvg.toFixed(1));
+            document.getElementById('stat-post-pct').textContent = `${toArabicDigits(postPct)}٪`;
+
+            const impEl = document.getElementById('stat-improvement');
+            impEl.textContent = `${diffPct >= 0 ? '+' : ''}${toArabicDigits(diffPct)}٪`;
+
+            // تحديث الأعمدة البيانية (مقارنة القبلي والبعدي + تحليل الأسئلة الخمسة)
+            renderChartsAnalytics(list, prePct, postPct);
+
+            // تصفية الجدول حسب الاختيار
+            const filtered = currentTableFilter === 'الكل'
+                ? list
+                : list.filter(r => String(r.type).includes(currentTableFilter));
+
+            const tbody = document.getElementById('responses-table-body');
+            if (filtered.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="6" class="p-6 text-center text-slate-600 font-bold">لا توجد استجابات مسجلة في هذا التصنيف حالياً.</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = filtered.map(r => {
+                const isPre = String(r.type).includes('قبلي');
+                return `
+                    <tr class="hover:bg-slate-50">
+                        <td class="p-3.5">
+                            <span class="px-2.5 py-1 rounded-full text-xs font-black ${isPre ? 'bg-blue-100 text-[#1d4ed8]' : 'bg-purple-100 text-[#6d28d9]'}">
+                                ${r.type}
+                            </span>
+                        </td>
+                        <td class="p-3.5 font-extrabold text-[#0f172a]">${r.name}</td>
+                        <td class="p-3.5">${r.grade}</td>
+                        <td class="p-3.5">${r.school}</td>
+                        <td class="p-3.5 font-black text-emerald-700">${toArabicDigits(r.score)} / ٥ (${toArabicDigits(r.percent)}٪)</td>
+                        <td class="p-3.5 text-slate-600 text-xs" dir="auto">${toArabicDigits(r.date)}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function renderChartsAnalytics(list, prePct, postPct) {
+            // ١. تحديث أعمدة المقارنة بين القبلي والبعدي
+            const preBar = document.getElementById('chart-pre-bar');
+            const postBar = document.getElementById('chart-post-bar');
+            const preLbl = document.getElementById('chart-pre-label');
+            const postLbl = document.getElementById('chart-post-label');
+
+            if (preBar && postBar) {
+                preBar.style.height = `${prePct}%`;
+                postBar.style.height = `${postPct}%`;
+                preLbl.textContent = `${toArabicDigits(prePct)}٪`;
+                postLbl.textContent = `${toArabicDigits(postPct)}٪`;
+            }
+
+            // ٢. حساب نسبة الإجابات الصحيحة لكل سؤال من الأسئلة الخمسة
+            const questionLabels = [
+                'س١: عدم مشاركة كلمة المرور ورمز التحقق',
+                'س٢: التحقق من الروابط والرسائل المشبوهة',
+                'س٣: مراجعة إعدادات الخصوصية قبل النشر',
+                'س٤: التبليغ الفوري عند التنمر والابتزاز',
+                'س٥: التحقق من صحة الأخبار والصور'
+            ];
+            const correctAnswersText = [
+                'لا',
+                'أتحقق من المرسل والمصدر',
+                'نعم',
+                'شخص بالغ موثوق أو إدارة المدرسة',
+                'دائماً'
+            ];
+
+            const recordsWithAnswers = list.filter(r => Array.isArray(r.answers) && r.answers.length === 5);
+            const chartContainer = document.getElementById('questions-bar-chart');
+            if (!chartContainer) return;
+
+            if (recordsWithAnswers.length === 0) {
+                chartContainer.innerHTML = `<div class="p-4 rounded-xl bg-white border border-slate-200 text-xs font-bold text-slate-600 text-center">ستظهر الأعمدة البيانية التفصيلية للأسئلة الخمسة فور استلام استجابات جديدة.</div>`;
+                return;
+            }
+
+            chartContainer.innerHTML = questionLabels.map((qLabel, idx) => {
+                const correctCount = recordsWithAnswers.filter(r => String(r.answers[idx]).trim() === correctAnswersText[idx]).length;
+                const pct = Math.round((correctCount / recordsWithAnswers.length) * 100);
+                const barColor = pct >= 80 ? 'bg-emerald-600' : (pct >= 50 ? 'bg-[#1d4ed8]' : 'bg-amber-500');
+
+                return `
+                    <div class="space-y-1">
+                        <div class="flex justify-between text-xs font-extrabold text-[#0f172a]">
+                            <span>${qLabel}</span>
+                            <span class="text-[#1d4ed8]">${toArabicDigits(pct)}٪ (${toArabicDigits(correctCount)}/${toArabicDigits(recordsWithAnswers.length)})</span>
+                        </div>
+                        <div class="w-full h-3 bg-slate-200 rounded-full overflow-hidden">
+                            <div class="h-full ${barColor} rounded-full transition-all duration-500" style="width: ${pct}%"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function toggleAdvancedWebhookBox() {
+            document.getElementById('advanced-webhook-box').classList.toggle('hidden');
+        }
+
+        function saveGoogleSheetsUrl() {
+            const url = document.getElementById('google-sheets-webhook-input').value.trim();
+            if (url && url.startsWith('http')) {
+                localStorage.setItem('dhofar_awareness_sheets_webhook_2026', url);
+                playFeedbackSound('success');
+                showToast('تم تحديث رابط Google Apps Script بنجاح!');
+                fetchCloudData(true);
+            }
+        }
+
+        function resetDefaultScriptUrl() {
+            localStorage.removeItem('dhofar_awareness_sheets_webhook_2026');
+            document.getElementById('google-sheets-webhook-input').value = DEFAULT_SCRIPT_URL;
+            playFeedbackSound('click');
+            showToast('تمت استعادة رابط السكربت الافتراضي المدمج.');
+            fetchCloudData(true);
+        }
+
+        function exportResponsesToCSV() {
+            const list = cloudRecordsCache.length ? cloudRecordsCache : getLocalResponses();
+            if (list.length === 0) {
+                showToast('لا توجد بيانات مسجلة لتصديرها حالياً.', false);
+                return;
+            }
+            const headers = [
+                'التاريخ والوقت',
+                'نوع الاستبيان',
+                'اسم الطالب',
+                'الصف',
+                'المدرسة',
+                'الدرجة من 5',
+                'النسبة المئوية',
+                'س1: مشاركة كلمة المرور',
+                'س2: التصرف مع الروابط',
+                'س3: إعدادات الخصوصية',
+                'س4: مواجهة الابتزاز',
+                'س5: التحقق من الأخبار'
+            ];
+            const rows = list.map(r => {
+                const ans = Array.isArray(r.answers) ? r.answers : [];
+                return [
+                    `"${r.date}"`,
+                    `"${r.type}"`,
+                    `"${r.name}"`,
+                    `"${r.grade}"`,
+                    `"${r.school}"`,
+                    r.score,
+                    `"${r.percent}%"`,
+                    `"${ans[0] || ''}"`,
+                    `"${ans[1] || ''}"`,
+                    `"${ans[2] || ''}"`,
+                    `"${ans[3] || ''}"`,
+                    `"${ans[4] || ''}"`
+                ].join(',');
+            });
+
+            const csvContent = '\uFEFF' + [headers.join(','), ...rows].join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'نتائج_استبيان_وعيك_الرقمي_أمانك_2026.csv';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            playFeedbackSound('success');
+            showToast('تم تصدير ملف البيانات بصيغة Excel / CSV بنجاح!');
+        }
+
+        // =====================================================================
+        // الخطة التنفيذية للمدارس + المؤقت الصفي
+        // =====================================================================
+        const campaignPhases = [
+            {
+                id: 'phase1',
+                title: 'المرحلة الأولى: ابدأ بوعي',
+                icon: 'fa-sun',
+                color: 'text-[#1d4ed8] bg-blue-50 border border-blue-200',
+                tasks: [
+                    { id: 't1', text: 'إذاعة مدرسية افتتاحية بعنوان «وعيك الرقمي أمانك».' },
+                    { id: 't2', text: 'استبيان قبلي مختصر لقياس المعرفة لدى الطلبة.' },
+                    { id: 't3', text: 'عرض مرئي قصير عن الخصوصية وكلمات المرور.' },
+                    { id: 't4', text: 'لوحة صفية: خمس قواعد للأمان الرقمي.' }
+                ]
+            },
+            {
+                id: 'phase2',
+                title: 'المرحلة الثانية: كن ذكياً أمام الاحتيال',
+                icon: 'fa-user-shield',
+                color: 'text-sky-800 bg-sky-50 border border-sky-200',
+                tasks: [
+                    { id: 't5', text: 'نشاط «الرابط الآمن أم المشبوه؟» باستخدام أمثلة افتراضية.' },
+                    { id: 't6', text: 'مسابقة تمييز الرسائل الاحتيالية.' },
+                    { id: 't7', text: 'ورشة إعداد كلمة مرور قوية وتفعيل التحقق بخطوتين (دون جمع كلمات المرور).' },
+                    { id: 't8', text: 'ركن توعوي للأهالي حول حماية حسابات الأبناء.' }
+                ]
+            },
+            {
+                id: 'phase3',
+                title: 'المرحلة الثالثة: احترامك الرقمي يعكس أخلاقك',
+                icon: 'fa-handshake-angle',
+                color: 'text-[#6d28d9] bg-purple-50 border border-purple-200',
+                tasks: [
+                    { id: 't9', text: 'تمثيل مواقف عن التنمر الإلكتروني وكيفية طلب المساعدة.' },
+                    { id: 't10', text: 'بطاقات «ماذا أفعل إذا تعرضت للابتزاز؟».' },
+                    { id: 't11', text: 'حوار طلابي عن البصمة الرقمية واحترام الخصوصية.' },
+                    { id: 't12', text: 'استضافة مختص أو جهة معنية عند توافر ذلك.' }
+                ]
+            },
+            {
+                id: 'phase4',
+                title: 'المرحلة الرابعة: تحقق وشارك بأمان',
+                icon: 'fa-award',
+                color: 'text-emerald-800 bg-emerald-50 border border-emerald-200',
+                tasks: [
+                    { id: 't13', text: 'تحدي التحقق من الأخبار والصور.' },
+                    { id: 't14', text: 'إنتاج ملصقات أو مقاطع قصيرة من إعداد الطلبة.' },
+                    { id: 't15', text: 'استبيان بعدي لقياس التغير في المعرفة.' },
+                    { id: 't16', text: 'تكريم المشاركات المتميزة وتجميع الشواهد.' }
+                ]
+            }
+        ];
+
+        const STORAGE_KEY = 'dhofar_digital_awareness_tasks_2026';
+
+        function getSavedTasks() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+            } catch (e) {
+                return {};
+            }
+        }
+
+        function toggleTaskCheck(taskId) {
+            const saved = getSavedTasks();
+            saved[taskId] = !saved[taskId];
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+            updateSchoolProgress();
+            playFeedbackSound(saved[taskId] ? 'success' : 'click');
+        }
+
+        function updateSchoolProgress() {
+            const saved = getSavedTasks();
+            const totalTasks = 16;
+            const completed = Object.values(saved).filter(Boolean).length;
+            const pct = Math.round((completed / totalTasks) * 100);
+
+            document.getElementById('school-progress-text').textContent =
+                `${toArabicDigits(pct)}٪ (${toArabicDigits(completed)} / ${toArabicDigits(totalTasks)})`;
+            document.getElementById('school-progress-bar').style.width = `${pct}%`;
+        }
+
+        function renderPhases() {
+            const saved = getSavedTasks();
+            const grid = document.getElementById('phases-grid');
+            grid.innerHTML = campaignPhases.map(ph => `
+                <div class="rounded-2xl border-2 border-slate-200 bg-slate-50 p-5 space-y-3">
+                    <div class="flex items-center gap-3 pb-2 border-b border-slate-200">
+                        <div class="w-10 h-10 rounded-xl ${ph.color} flex items-center justify-center text-lg">
+                            <i class="fa-solid ${ph.icon}"></i>
+                        </div>
+                        <h3 class="font-black text-[#0f172a] text-base sm:text-lg">${ph.title}</h3>
+                    </div>
+                    <div class="space-y-2.5">
+                        ${ph.tasks.map(t => `
+                            <label class="flex items-start gap-3 p-3 rounded-xl bg-white border border-slate-300 hover:border-[#1d4ed8] cursor-pointer transition">
+                                <input type="checkbox" ${saved[t.id] ? 'checked' : ''} onchange="toggleTaskCheck('${t.id}')" class="mt-1 w-4 h-4 rounded text-emerald-700 focus:ring-emerald-600">
+                                <span class="text-xs sm:text-sm font-bold text-[#1e293b] leading-relaxed">${t.text}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+            updateSchoolProgress();
+        }
+
+        // المؤقت الزمني الصفي
+        let timerTotalSeconds = 15 * 60;
+        let timerRemainingSeconds = 15 * 60;
+        let timerInterval = null;
+
+        function updateTimerDisplay() {
+            const mins = Math.floor(timerRemainingSeconds / 60);
+            const secs = timerRemainingSeconds % 60;
+            const formatted = `${toArabicDigits(String(mins).padStart(2, '0'))}:${toArabicDigits(String(secs).padStart(2, '0'))}`;
+            document.getElementById('classroom-timer-display').textContent = formatted;
+        }
+
+        function setTimerMinutes(mins, labelText = 'مؤقت النشاط الصفي') {
+            clearInterval(timerInterval);
+            timerInterval = null;
+            timerTotalSeconds = mins * 60;
+            timerRemainingSeconds = mins * 60;
+            document.getElementById('timer-activity-label').textContent = labelText;
+            document.getElementById('timer-toggle-btn').innerHTML = '<i class="fa-solid fa-play ml-1"></i> ابدأ';
+            updateTimerDisplay();
+            playFeedbackSound('click');
+        }
+
+        function startActivityTimer(mins, labelText) {
+            setTimerMinutes(mins, labelText);
+            toggleTimer();
+            showToast(`تم تشغيل مؤقت نشاط «${labelText}» لمدة ${toArabicDigits(mins)} دقيقة`);
+        }
+
+        function toggleTimer() {
+            const btn = document.getElementById('timer-toggle-btn');
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+                btn.innerHTML = '<i class="fa-solid fa-play ml-1"></i> استئناف';
+            } else {
+                btn.innerHTML = '<i class="fa-solid fa-pause ml-1"></i> إيقاف';
+                timerInterval = setInterval(() => {
+                    if (timerRemainingSeconds > 0) {
+                        timerRemainingSeconds--;
+                        updateTimerDisplay();
+                    } else {
+                        clearInterval(timerInterval);
+                        timerInterval = null;
+                        btn.innerHTML = '<i class="fa-solid fa-play ml-1"></i> ابدأ';
+                        playFeedbackSound('success');
+                        showToast('انتهى وقت النشاط الصفي!');
+                    }
+                }, 1000);
+            }
+        }
+
+        function resetTimer() {
+            clearInterval(timerInterval);
+            timerInterval = null;
+            timerRemainingSeconds = timerTotalSeconds;
+            document.getElementById('timer-toggle-btn').innerHTML = '<i class="fa-solid fa-play ml-1"></i> ابدأ';
+            updateTimerDisplay();
+            playFeedbackSound('click');
+        }
+
+        // =====================================================================
+        // محاور التوعية الخمسة والمختبر التفاعلي للطلبة (كلمة المرور، الصيد، المواقف)
+        // =====================================================================
+        const awarenessPillars = [
+            {
+                id: 'p1',
+                num: '١',
+                title: 'احمِ حساباتك',
+                icon: 'fa-user-lock',
+                badgeColor: 'bg-blue-100 text-[#1d4ed8] border-blue-200',
+                headerBg: 'from-[#1d4ed8] to-[#1e40af]',
+                goldenRule: 'كلمة مرورك ورمز التحقق مفاتيحك الخاصة؛ لا تمنحهما لأحد مهما كان.',
+                tips: [
+                    'استخدم كلمة مرور قوية ومختلفة لكل حساب.',
+                    'فعّل التحقق بخطوتين (2FA) متى توفر.',
+                    'لا تشارك رمز التحقق (OTP) أو كلمة المرور مع أي شخص.',
+                    'سجّل الخروج من الأجهزة المشتركة ولا تحفظ كلمات المرور عليها.'
+                ]
+            },
+            {
+                id: 'p2',
+                num: '٢',
+                title: 'اكتشف الاحتيال الإلكتروني',
+                icon: 'fa-fish-fins',
+                badgeColor: 'bg-sky-100 text-sky-900 border-sky-200',
+                headerBg: 'from-sky-600 to-[#1d4ed8]',
+                goldenRule: 'العجلة والخوف والطمع أسلحة المحتالين؛ توقف وافحص الرابط قبل النقر.',
+                tips: [
+                    'توقف قبل فتح رابط مجهول أو تحميل ملف غير متوقع.',
+                    'تحقق من عنوان المرسل والموقع الرسمي بدقة.',
+                    'لا تستعجل بسبب رسائل التهديد أو الجوائز الوهمية.',
+                    'لا ترسل بياناتك البنكية أو الشخصية عبر روابط غير موثوقة.'
+                ]
+            },
+            {
+                id: 'p3',
+                num: '٣',
+                title: 'احفظ خصوصيتك',
+                icon: 'fa-eye-slash',
+                badgeColor: 'bg-purple-100 text-[#6d28d9] border-purple-200',
+                headerBg: 'from-[#6d28d9] to-[#581c87]',
+                goldenRule: 'ما تنشره اليوم قد يبقى للأبد؛ شارك بوعي واحترم خصوصية غيرك.',
+                tips: [
+                    'فكّر قبل نشر الصور والموقع الجغرافي والمعلومات العائلية.',
+                    'راجع إعدادات الخصوصية ومن يستطيع مشاهدة منشوراتك.',
+                    'استأذن قبل تصوير الآخرين أو نشر صورهم.'
+                ]
+            },
+            {
+                id: 'p4',
+                num: '٤',
+                title: 'واجه التنمر والابتزاز الرقمي',
+                icon: 'fa-shield-heart',
+                badgeColor: 'bg-rose-100 text-rose-800 border-rose-200',
+                headerBg: 'from-rose-700 to-purple-800',
+                goldenRule: 'لست وحدك؛ لا ترضخ للابتزاز، احتفظ بالدليل وأبلغ فوراً.',
+                tips: [
+                    'لا ترد على المبتز ولا ترسل له مالاً أو مواد إضافية.',
+                    'احتفظ بالأدلة الرقمية (لقطات شاشة) دون إعادة نشرها، واحظر الحساب.',
+                    'أخبر ولي الأمر أو شخصاً بالغاً موثوقاً وإدارة المدرسة، واستخدم قنوات الإبلاغ الرسمية.',
+                    'إذا كان هناك تهديد مباشر أو خطر، اطلب المساعدة فوراً من الجهات المختصة.'
+                ]
+            },
+            {
+                id: 'p5',
+                num: '٥',
+                title: 'تحقّق قبل أن تشارك',
+                icon: 'fa-magnifying-glass-check',
+                badgeColor: 'bg-emerald-100 text-emerald-900 border-emerald-200',
+                headerBg: 'from-emerald-700 to-teal-800',
+                goldenRule: 'كن سداً منيعاً أمام الشائعات؛ تحقق من المصدر والتاريخ والسياق.',
+                tips: [
+                    'تحقق من المصدر الأصلي وتاريخ النشر والسياق الكامل.',
+                    'قارن الخبر بمصادر رسمية وموثوقة أخرى.',
+                    'لا تنشر صوراً أو مقاطع مجتزأة على أنها حقيقة مؤكدة.'
+                ]
+            }
+        ];
+
+        let allPillarsExpanded = true;
+
+        function renderPillars() {
+            const grid = document.getElementById('pillars-grid');
+            if (!grid) return;
+            grid.innerHTML = awarenessPillars.map(p => `
+                <div class="pillar-card bg-white rounded-3xl border-2 border-slate-200 overflow-hidden shadow-sm flex flex-col">
+                    <div onclick="toggleSinglePillar('${p.id}')" class="bg-gradient-to-l ${p.headerBg} p-5 text-white flex items-center justify-between cursor-pointer select-none">
+                        <div class="flex items-center gap-3">
+                            <div class="w-11 h-11 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center text-xl font-black">
+                                <i class="fa-solid ${p.icon}"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs font-extrabold text-sky-200">المحور ${p.num}</span>
+                                <h3 class="text-lg font-black">${p.title}</h3>
+                            </div>
+                        </div>
+                        <i id="pillar-chevron-${p.id}" class="fa-solid fa-chevron-up text-sm transition-transform"></i>
+                    </div>
+                    <div id="pillar-body-${p.id}" class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <ul class="space-y-2.5 text-sm font-bold text-[#1e293b]">
+                            ${p.tips.map(tip => `
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-[#1d4ed8] mt-1 shrink-0"></i>
+                                    <span>${tip}</span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                        <div class="p-3.5 rounded-2xl border ${p.badgeColor} text-xs font-extrabold leading-relaxed">
+                            <i class="fa-solid fa-star ml-1"></i> <strong>القاعدة الذهبية:</strong> ${p.goldenRule}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleSinglePillar(id) {
+            const body = document.getElementById(`pillar-body-${id}`);
+            const chev = document.getElementById(`pillar-chevron-${id}`);
+            if (!body || !chev) return;
+            body.classList.toggle('hidden');
+            chev.classList.toggle('rotate-180');
+            playFeedbackSound('click');
+        }
+
+        function toggleAllPillars() {
+            allPillarsExpanded = !allPillarsExpanded;
+            awarenessPillars.forEach(p => {
+                const body = document.getElementById(`pillar-body-${p.id}`);
+                const chev = document.getElementById(`pillar-chevron-${p.id}`);
+                if (!body || !chev) return;
+                if (allPillarsExpanded) {
+                    body.classList.remove('hidden');
+                    chev.classList.remove('rotate-180');
+                } else {
+                    body.classList.add('hidden');
+                    chev.classList.add('rotate-180');
+                }
+            });
+            playFeedbackSound('click');
+        }
+
+        // فاحص قوة كلمة المرور
+        function updateCriterionUI(elId, passed) {
+            const el = document.getElementById(elId);
+            if (!el) return;
+            const icon = el.querySelector('i');
+            if (passed) {
+                el.classList.remove('text-slate-600');
+                el.classList.add('text-emerald-800');
+                icon.className = 'fa-solid fa-circle-check text-emerald-600';
+            } else {
+                el.classList.remove('text-emerald-800');
+                el.classList.add('text-slate-600');
+                icon.className = 'fa-regular fa-circle text-slate-400';
+            }
+        }
+
+        function evaluatePassword(pwd) {
+            const len = pwd.length;
+            const hasLen = len >= 12;
+            const hasUpper = /[A-Z]/.test(pwd);
+            const hasLower = /[a-z]/.test(pwd);
+            const hasNum = /[0-9]/.test(pwd);
+            const hasSym = /[^A-Za-z0-9]/.test(pwd);
+
+            updateCriterionUI('crit-length', hasLen);
+            updateCriterionUI('crit-upper', hasUpper);
+            updateCriterionUI('crit-lower', hasLower);
+            updateCriterionUI('crit-number', hasNum);
+            updateCriterionUI('crit-symbol', hasSym);
+
+            document.getElementById('pwd-length-ar').textContent = toArabicDigits(len);
+
+            const score = [hasLen, hasUpper, hasLower, hasNum, hasSym].filter(Boolean).length;
+            const bar = document.getElementById('pwd-strength-bar');
+            const label = document.getElementById('pwd-strength-label');
+            const advice = document.getElementById('pwd-advice-box');
+
+            if (len === 0) {
+                bar.style.width = '0%';
+                bar.className = 'h-full w-0 rounded-full transition-all duration-300 bg-slate-400';
+                label.textContent = 'بانتظار الإدخال...';
+                label.className = 'text-slate-600';
+                advice.textContent = 'ابدأ بكتابة أحرف وأرقام ورموز لترى نصائح تعزيز كلمة المرور.';
+                return;
+            }
+
+            if (score <= 2) {
+                bar.style.width = '30%';
+                bar.className = 'h-full rounded-full transition-all duration-300 bg-rose-600';
+                label.textContent = 'ضعيفة (سهلة الاختراق)';
+                label.className = 'text-rose-700';
+                advice.textContent = 'نصيحة: اجعلها أطول (١٢ خانة فأكثر) وأضف أرقاماً ورموزاً مثل (@ # $) وأحرفاً كبيرة.';
+            } else if (score <= 4) {
+                bar.style.width = '68%';
+                bar.className = 'h-full rounded-full transition-all duration-300 bg-amber-500';
+                label.textContent = 'متوسطة (تحتاج تعزيزاً)';
+                label.className = 'text-amber-700';
+                advice.textContent = 'جيد! أكمِل بقية المعايير الخضراء في القائمة المقابلة لتصل إلى الحماية القصوى.';
+            } else {
+                bar.style.width = '100%';
+                bar.className = 'h-full rounded-full transition-all duration-300 bg-emerald-600';
+                label.textContent = 'قوية وحصينة جداً!';
+                label.className = 'text-emerald-700';
+                advice.textContent = 'ممتاز! هذه كلمة مرور نموذجية يصعب تخمينها، ولا تنسَ تفعيل التحقق بخطوتين.';
+            }
+        }
+
+        function generateSamplePassword() {
+            const samples = ['Dhofar@2026#Safe', 'Oman!Shield99*Edu', 'Salalah#Cyber2026!'];
+            const pick = samples[Math.floor(Math.random() * samples.length)];
+            const input = document.getElementById('password-test-input');
+            input.value = pick;
+            evaluatePassword(pick);
+            playFeedbackSound('success');
+        }
+
+        // لعبة صيد الرابط المشبوه (٥ رسائل) + مواقف ماذا أفعل (٣ مواقف)
+        const phishingItems = [
+            {
+                id: 'ph1',
+                sender: 'Prize-Oman-Win@freegift-xyz.net',
+                text: 'مبروك! ربحت هاتفاً ذكياً بقيمة ٥٠٠ ريال عماني. اضغط هنا وأدخل رقم بطاقتك البنكية ورمز التحقق خلال ١٠ دقائق قبل إلغاء الجائزة!',
+                isPhishing: true,
+                reason: 'رسالة احتيالية: نطاق المرسل غير رسمي، وتستخدم أسلوب الاستعجال والجائزة الوهمية لسرقة البيانات البنكية ورمز التحقق.'
+            },
+            {
+                id: 'ph2',
+                sender: 'المنصة التعليمية المعتمدة (moe.gov.om)',
+                text: 'عزيزي الطالب، تم رفع جدول الاختبارات التجريبية للفصل الدراسي الأول على البوابة التعليمية الرسمية لوزارة التربية والتعليم.',
+                isPhishing: false,
+                reason: 'رسالة آمنة: مرسلة من نطاق حكومي تعليمي رسمي (.gov.om) ولا تطلب أي كلمات مرور أو بيانات سرية.'
+            },
+            {
+                id: 'ph3',
+                sender: 'Bank-Alert-Security@update-acc-om.com',
+                text: 'تنبيه عاجل: تم تعليق حسابك البنكي مؤقتاً. يرجى تحديث كلمة المرور فوراً عبر الرابط المرفق لتجنب إغلاق الحساب نهائياً.',
+                isPhishing: true,
+                reason: 'رسالة احتيالية: البنوك لا تطلب تحديث كلمة المرور عبر روابط في الرسائل، وتستخدم أسلوب التهديد لإرباك الضحية.'
+            },
+            {
+                id: 'ph4',
+                sender: 'إدارة مدرسة محمد بن القاسم الثقفي',
+                text: 'أولياء الأمور الكرام، ندعوكم لحضور اللقاء التوعوي حول الأمان الرقمي للطلبة يوم الثلاثاء الساعة ٩ صباحاً في مسرح المدرسة.',
+                isPhishing: false,
+                reason: 'رسالة آمنة: إعلان مدرسي واضح ومباشر بدون روابط مشبوهة أو طلب معلومات خاصة.'
+            },
+            {
+                id: 'ph5',
+                sender: 'Free-Game-Coins@robux-hack-vip.co',
+                text: 'احصل على ١٠٠٠٠ نقطة مجانية في لعبتك المفضلة الآن! فقط سجّل الدخول بحسابك وكلمة مرورك لتفعيل الشحن الفوري.',
+                isPhishing: true,
+                reason: 'رسالة احتيالية: عروض الشحن المجاني التي تطلب اسم المستخدم وكلمة المرور تهدف لسرقة حسابات الألعاب ومنصات التواصل.'
+            }
+        ];
+
+        const scenarioItems = [
+            {
+                id: 'sc1',
+                situation: '١. وصلتك رسالة من حساب مجهول يهددك بنشر صور معدّلة لك ما لم ترسل له مبلغاً مالياً أو صوراً أخرى، ماذا تفعل؟',
+                options: [
+                    { text: 'أستجيب لطلبه بسرعة حتى لا ينشر شيئاً', correct: false },
+                    { text: 'لا أرد عليه، أحتفظ بلقطات شاشة كدليل، وأخبر ولي أمري أو إدارة المدرسة فوراً', correct: true },
+                    { text: 'أحذف المحادثة وأغلق هاتفي دون إخبار أحد', correct: false }
+                ],
+                explanation: 'عدم الاستجابة للمبتز والاحتفاظ بالأدلة وإبلاغ ولي الأمر أو إدارة المدرسة والجهات المختصة هو التصرف الآمن والصحيح.'
+            },
+            {
+                id: 'sc2',
+                situation: '٢. لاحظت في مجموعة صفية قيام بعض الأشخاص بالسخرية من زميلك ونشر تعليقات مسيئة بحقه، ما دورك المسؤول؟',
+                options: [
+                    { text: 'أشارك في التعليقات من باب المزاح', correct: false },
+                    { text: 'أعيد إرسال المنشور لبقية المجموعات', correct: false },
+                    { text: 'أرفض التنمر، أدعم زميلي، وأبلغ مشرف المجموعة أو المعلم المختص', correct: true }
+                ],
+                explanation: 'السلوك الرقمي مسؤولية؛ عدم المشاركة في الإساءة والإبلاغ عنها يحمي زملاءك ويعزز الاحترام الرقمي.'
+            },
+            {
+                id: 'sc3',
+                situation: '٣. شاهدت مقطع فيديو متداولاً يثير الذعر ويزعم تعليق الدراسة غداً في محافظة ظفار دون وجود مصدر رسمي، كيف تتصرف؟',
+                options: [
+                    { text: 'أتحقق من الحسابات الرسمية لوزارة التربية والتعليم قبل تصديقه أو نشره', correct: true },
+                    { text: 'أنشره فوراً في جميع مجموعات الواتساب لينتبه الجميع', correct: false },
+                    { text: 'أصدق الخبر لأن كثيراً من الناس أعادوا نشره', correct: false }
+                ],
+                explanation: 'كثرة التداول لا تعني صحة الخبر؛ يجب دائماً التحقق من المصدر الرسمي والتاريخ والسياق قبل المشاركة.'
+            }
+        ];
+
+        let phishingAnswered = {};
+        let scenariosAnswered = {};
+
+        function updateLabTotalScore() {
+            const phCorrect = Object.values(phishingAnswered).filter(Boolean).length;
+            const scCorrect = Object.values(scenariosAnswered).filter(Boolean).length;
+            document.getElementById('phishing-score-ar').textContent = toArabicDigits(phCorrect);
+            document.getElementById('scenarios-score-ar').textContent = toArabicDigits(scCorrect);
+            document.getElementById('lab-total-score').textContent = toArabicDigits(phCorrect + scCorrect);
+        }
+
+        function renderPhishingGame() {
+            const container = document.getElementById('phishing-cards-container');
+            if (!container) return;
+            container.innerHTML = phishingItems.map((item, idx) => `
+                <div class="p-5 rounded-2xl bg-slate-50 border-2 border-slate-200 flex flex-col justify-between space-y-4">
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between text-xs font-extrabold text-slate-600">
+                            <span>رسالة رقم ${toArabicDigits(idx + 1)}</span>
+                            <span class="font-mono bg-white px-2.5 py-1 rounded-lg border border-slate-200 text-[#0f172a]" dir="ltr">${item.sender}</span>
+                        </div>
+                        <p class="text-sm font-bold text-[#0f172a] bg-white p-3.5 rounded-xl border border-slate-200 leading-relaxed">
+                            «${item.text}»
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="grid grid-cols-2 gap-2.5">
+                            <button onclick="checkPhishingAnswer('${item.id}', false)" class="py-2.5 px-3 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border-2 border-emerald-300 font-black text-xs sm:text-sm cursor-pointer transition">
+                                <i class="fa-solid fa-shield-check ml-1"></i> رسالة آمنة
+                            </button>
+                            <button onclick="checkPhishingAnswer('${item.id}', true)" class="py-2.5 px-3 rounded-xl bg-rose-50 hover:bg-rose-100 text-rose-900 border-2 border-rose-300 font-black text-xs sm:text-sm cursor-pointer transition">
+                                <i class="fa-solid fa-triangle-exclamation ml-1"></i> رابط / رسالة مشبوهة
+                            </button>
+                        </div>
+                        <div id="ph-feedback-${item.id}" class="hidden p-3 rounded-xl text-xs font-extrabold leading-relaxed"></div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function checkPhishingAnswer(itemId, userSaidPhishing) {
+            const item = phishingItems.find(x => x.id === itemId);
+            if (!item) return;
+            const isCorrect = (userSaidPhishing === item.isPhishing);
+            phishingAnswered[itemId] = isCorrect;
+
+            const fb = document.getElementById(`ph-feedback-${itemId}`);
+            fb.classList.remove('hidden', 'bg-emerald-100', 'text-emerald-950', 'border-emerald-300', 'bg-rose-100', 'text-rose-950', 'border-rose-300');
+            if (isCorrect) {
+                fb.classList.add('bg-emerald-100', 'text-emerald-950', 'border', 'border-emerald-300');
+                fb.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-700 ml-1"></i> إجابة صحيحة! ${item.reason}`;
+                playFeedbackSound('success');
+            } else {
+                fb.classList.add('bg-rose-100', 'text-rose-950', 'border', 'border-rose-300');
+                fb.innerHTML = `<i class="fa-solid fa-circle-xmark text-rose-700 ml-1"></i> انتبه! ${item.reason}`;
+                playFeedbackSound('error');
+            }
+            updateLabTotalScore();
+        }
+
+        function renderScenarios() {
+            const container = document.getElementById('scenarios-container');
+            if (!container) return;
+            container.innerHTML = scenarioItems.map(sc => `
+                <div class="p-5 rounded-2xl bg-slate-50 border-2 border-slate-200 space-y-3">
+                    <div class="font-black text-[#0f172a] text-sm sm:text-base">${sc.situation}</div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5">
+                        ${sc.options.map((opt, i) => `
+                            <button onclick="checkScenarioAnswer('${sc.id}', ${opt.correct}, this)" class="sc-opt-${sc.id} text-right p-3.5 rounded-xl bg-white hover:border-[#1d4ed8] border-2 border-slate-200 text-xs sm:text-sm font-extrabold text-[#1e293b] transition cursor-pointer">
+                                ${opt.text}
+                            </button>
+                        `).join('')}
+                    </div>
+                    <div id="sc-feedback-${sc.id}" class="hidden p-3 rounded-xl text-xs font-extrabold leading-relaxed"></div>
+                </div>
+            `).join('');
+        }
+
+        function checkScenarioAnswer(scId, isCorrect, btnEl) {
+            const sc = scenarioItems.find(x => x.id === scId);
+            if (!sc) return;
+            scenariosAnswered[scId] = isCorrect;
+
+            document.querySelectorAll(`.sc-opt-${scId}`).forEach(b => {
+                b.classList.remove('border-emerald-600', 'bg-emerald-50', 'border-rose-600', 'bg-rose-50');
+            });
+
+            const fb = document.getElementById(`sc-feedback-${scId}`);
+            fb.classList.remove('hidden', 'bg-emerald-100', 'text-emerald-950', 'bg-rose-100', 'text-rose-950');
+
+            if (isCorrect) {
+                btnEl.classList.add('border-emerald-600', 'bg-emerald-50');
+                fb.classList.add('bg-emerald-100', 'text-emerald-950');
+                fb.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-700 ml-1"></i> تصرف سليم! ${sc.explanation}`;
+                playFeedbackSound('success');
+            } else {
+                btnEl.classList.add('border-rose-600', 'bg-rose-50');
+                fb.classList.add('bg-rose-100', 'text-rose-950');
+                fb.innerHTML = `<i class="fa-solid fa-circle-xmark text-rose-700 ml-1"></i> خيار غير آمن! ${sc.explanation}`;
+                playFeedbackSound('error');
+            }
+            updateLabTotalScore();
+        }
+
+        // تهيئة التطبيق عند التحميل
+        window.onload = function () {
+            renderGateQuestions();
+            renderPillars();
+            renderPhishingGame();
+            renderScenarios();
+            renderQuizQuestions();
+            renderPhases();
+            updateTimerDisplay();
+
+            // التحقق من حالة الزائر: هل أتم الاستبيان القبلي مسبقاً؟
+            const preState = getVisitorPreSurveyState();
+            if (preState && preState.completed) {
+                unlockStudentPortal(preState, false);
+            }
+
+            // إذا فُتح الرابط مباشرة بالهاش #admin، افتح نافذة التحقق للمنسقين
+            if (window.location.hash === '#admin') {
+                openAdminModal();
+            }
+        };
+    </script>
+</body>
+</html>
